@@ -1,0 +1,650 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DEFAULT" xml:space="preserve">
+    <value> of $_</value>
+  </data>
+  <data name="KinshipRule_1" xml:space="preserve">
+    <value>[PMF]+[GBZ]([CSD])+|EQ(#PGC#);LT(#PGC#C);GT(P#PGC#)</value>
+    <comment>Cousins</comment>
+  </data>
+  <data name="KinshipRule_10" xml:space="preserve">
+    <value>[PMF][EHW]([PMF]){3,}|#PEP$1#</value>
+    <comment>Step Great Grand Parents</comment>
+  </data>
+  <data name="KinshipRule_11" xml:space="preserve">
+    <value>([PMF]){4,}|#PP$1#</value>
+    <comment>Great Grand Parents</comment>
+  </data>
+  <data name="KinshipRule_12" xml:space="preserve">
+    <value>[EHW]([SDC]){4,}|#ECC$1#</value>
+    <comment>Step Great Grand Children</comment>
+  </data>
+  <data name="KinshipRule_13" xml:space="preserve">
+    <value>([SDC]){4,}|#CC$1#</value>
+    <comment>Great Grand Children</comment>
+  </data>
+  <data name="KinshipRule_2" xml:space="preserve">
+    <value>[PMF]+[PMF][CSD]([CSD])+|EQ(#PPCC#);LT(#PPCC#C);GT(P#PPCC#)</value>
+    <comment>Half cousins</comment>
+  </data>
+  <data name="KinshipRule_3" xml:space="preserve">
+    <value>[PMF]+[PMF][EHW][CSD]([CSD])+|EQ(#PPECC#);LT(#PPECC#C);GT(P#PPECC#)</value>
+    <comment>Step cousins</comment>
+  </data>
+  <data name="KinshipRule_4" xml:space="preserve">
+    <value>[PMF]{2,}([BZ])|#PP$1#</value>
+    <comment>Great Aunts/Uncles</comment>
+  </data>
+  <data name="KinshipRule_5" xml:space="preserve">
+    <value>[PMF]{3,}([DS])|#PPP$1#</value>
+    <comment>Half Great Uncles/Aunts</comment>
+  </data>
+  <data name="KinshipRule_6" xml:space="preserve">
+    <value>[PMF]{3,}[EHW]([DS])|#PPPE$1#</value>
+    <comment>Step Great Aunts/Uncles</comment>
+  </data>
+  <data name="KinshipRule_7" xml:space="preserve">
+    <value>[BZG]([SDC]){3,}|#GCC$1#C</value>
+    <comment>Great Grand Nieces/Nephews</comment>
+  </data>
+  <data name="KinshipRule_8" xml:space="preserve">
+    <value>[PFM][SDC]([SDC]){3,}|#PCCC$1#C</value>
+    <comment>Half Great Grand Nieces/Nephews</comment>
+  </data>
+  <data name="KinshipRule_9" xml:space="preserve">
+    <value>[PFM][EHW][SDC]([SDC]){3,}|#PECCC$1#C</value>
+    <comment>Step Great Grand Nieces/Nephews</comment>
+  </data>
+  <data name="KinshipUnrelated" xml:space="preserve">
+    <value>unrelated</value>
+  </data>
+  <data name="Kinship_#CCC#" xml:space="preserve">
+    <value>{0:ON} great grandchild</value>
+  </data>
+  <data name="Kinship_#CCD#" xml:space="preserve">
+    <value>{0:ON} great granddaughter</value>
+  </data>
+  <data name="Kinship_#CCS#" xml:space="preserve">
+    <value>{0:ON} great grandson</value>
+  </data>
+  <data name="Kinship_#ECCC#" xml:space="preserve">
+    <value>step {0:ON} great grandchild</value>
+  </data>
+  <data name="Kinship_#ECCD#" xml:space="preserve">
+    <value>step {0:ON} great granddaughter</value>
+  </data>
+  <data name="Kinship_#ECCS#" xml:space="preserve">
+    <value>step {0:ON} great grandson</value>
+  </data>
+  <data name="Kinship_#GCCD#C" xml:space="preserve">
+    <value>{0:ON} great grand niece</value>
+  </data>
+  <data name="Kinship_#GCCS#C" xml:space="preserve">
+    <value>{0:ON} great grand nephew</value>
+  </data>
+  <data name="Kinship_#PCCCD#C" xml:space="preserve">
+    <value>half {0:ON} great grand niece</value>
+  </data>
+  <data name="Kinship_#PCCCS#C" xml:space="preserve">
+    <value>half {0:ON} great grand nephew</value>
+  </data>
+  <data name="Kinship_#PECCCD#C" xml:space="preserve">
+    <value>step {0:ON} great grand niece</value>
+  </data>
+  <data name="Kinship_#PECCCS#C" xml:space="preserve">
+    <value>step {0:ON} great grand nephew</value>
+  </data>
+  <data name="Kinship_#PEPF#" xml:space="preserve">
+    <value>step {0:ON} great grandfather</value>
+  </data>
+  <data name="Kinship_#PEPM#" xml:space="preserve">
+    <value>step {0:ON} great grandmother</value>
+  </data>
+  <data name="Kinship_#PEPP#" xml:space="preserve">
+    <value>step {0:ON} great grandparent</value>
+  </data>
+  <data name="Kinship_#PGC#" xml:space="preserve">
+    <value>{1:ON} cousin</value>
+  </data>
+  <data name="Kinship_#PGC#C" xml:space="preserve">
+    <value>{1:ON} cousin {4:CN}x removed</value>
+  </data>
+  <data name="Kinship_#PPB#" xml:space="preserve">
+    <value>{0:ON} great uncle</value>
+  </data>
+  <data name="Kinship_#PPCC#" xml:space="preserve">
+    <value>half {1:ON} cousin</value>
+    <comment>Half cousin</comment>
+  </data>
+  <data name="Kinship_#PPCC#C" xml:space="preserve">
+    <value>half {1:ON} cousin {4:CN}x removed</value>
+    <comment>Half cousins removed</comment>
+  </data>
+  <data name="Kinship_#PPECC#" xml:space="preserve">
+    <value>step {1:ON} cousin</value>
+    <comment>Step cousin</comment>
+  </data>
+  <data name="Kinship_#PPECC#C" xml:space="preserve">
+    <value>step {1:ON} cousin {4:CN}x removed</value>
+    <comment>Step cousins removed</comment>
+  </data>
+  <data name="Kinship_#PPF#" xml:space="preserve">
+    <value>{0:ON} great grandfather</value>
+  </data>
+  <data name="Kinship_#PPM#" xml:space="preserve">
+    <value>{0:ON} great grandmother</value>
+  </data>
+  <data name="Kinship_#PPP#" xml:space="preserve">
+    <value>{0:ON} great grandparent</value>
+  </data>
+  <data name="Kinship_#PPPD#" xml:space="preserve">
+    <value>half {0:ON} great aunt</value>
+  </data>
+  <data name="Kinship_#PPPED#" xml:space="preserve">
+    <value>step {0:ON} great aunt</value>
+  </data>
+  <data name="Kinship_#PPPES#" xml:space="preserve">
+    <value>step {0:ON} great uncle</value>
+  </data>
+  <data name="Kinship_#PPPS#" xml:space="preserve">
+    <value>half {0:ON} great uncle</value>
+  </data>
+  <data name="Kinship_#PPZ#" xml:space="preserve">
+    <value>{0:ON} great aunt</value>
+  </data>
+  <data name="Kinship_B" xml:space="preserve">
+    <value>brother</value>
+  </data>
+  <data name="Kinship_C" xml:space="preserve">
+    <value>child</value>
+  </data>
+  <data name="Kinship_CC" xml:space="preserve">
+    <value>grandchild</value>
+  </data>
+  <data name="Kinship_CCC" xml:space="preserve">
+    <value>great grandchild</value>
+  </data>
+  <data name="Kinship_CCD" xml:space="preserve">
+    <value>great granddaughter</value>
+  </data>
+  <data name="Kinship_CCS" xml:space="preserve">
+    <value>great grandson</value>
+  </data>
+  <data name="Kinship_CD" xml:space="preserve">
+    <value>granddaughter</value>
+  </data>
+  <data name="Kinship_CH" xml:space="preserve">
+    <value>son-in-law</value>
+  </data>
+  <data name="Kinship_CS" xml:space="preserve">
+    <value>grandson</value>
+  </data>
+  <data name="Kinship_CW" xml:space="preserve">
+    <value>daughter-in-law</value>
+  </data>
+  <data name="Kinship_D" xml:space="preserve">
+    <value>daughter</value>
+  </data>
+  <data name="Kinship_E" xml:space="preserve">
+    <value>spouse</value>
+  </data>
+  <data name="Kinship_EB" xml:space="preserve">
+    <value>brother-in-law</value>
+  </data>
+  <data name="Kinship_EC" xml:space="preserve">
+    <value>stepchild</value>
+  </data>
+  <data name="Kinship_ECC" xml:space="preserve">
+    <value>step grandchild</value>
+  </data>
+  <data name="Kinship_ECCC" xml:space="preserve">
+    <value>step great grandchild</value>
+  </data>
+  <data name="Kinship_ECCD" xml:space="preserve">
+    <value>step great granddaughter</value>
+  </data>
+  <data name="Kinship_ECCS" xml:space="preserve">
+    <value>step great grandson</value>
+  </data>
+  <data name="Kinship_ECD" xml:space="preserve">
+    <value>step granddaughter</value>
+  </data>
+  <data name="Kinship_ECS" xml:space="preserve">
+    <value>step grandson</value>
+  </data>
+  <data name="Kinship_ED" xml:space="preserve">
+    <value>stepdaughter</value>
+  </data>
+  <data name="Kinship_EF" xml:space="preserve">
+    <value>father-in-law</value>
+  </data>
+  <data name="Kinship_EM" xml:space="preserve">
+    <value>mother-in-law</value>
+  </data>
+  <data name="Kinship_ES" xml:space="preserve">
+    <value>stepson</value>
+  </data>
+  <data name="Kinship_EZ" xml:space="preserve">
+    <value>sister-in-law</value>
+  </data>
+  <data name="Kinship_F" xml:space="preserve">
+    <value>father</value>
+  </data>
+  <data name="Kinship_FBC" xml:space="preserve">
+    <value>paternal 1st cousin</value>
+  </data>
+  <data name="Kinship_FBD" xml:space="preserve">
+    <value>paternal 1st cousin</value>
+  </data>
+  <data name="Kinship_FBS" xml:space="preserve">
+    <value>paternal 1st cousin</value>
+  </data>
+  <data name="Kinship_FF" xml:space="preserve">
+    <value>paternal grandfather</value>
+  </data>
+  <data name="Kinship_FGC" xml:space="preserve">
+    <value>paternal 1st cousin</value>
+  </data>
+  <data name="Kinship_FGD" xml:space="preserve">
+    <value>paternal 1st cousin</value>
+  </data>
+  <data name="Kinship_FGS" xml:space="preserve">
+    <value>paternal 1st cousin</value>
+  </data>
+  <data name="Kinship_FM" xml:space="preserve">
+    <value>paternal grandmother</value>
+  </data>
+  <data name="Kinship_FZC" xml:space="preserve">
+    <value>paternal 1st cousin</value>
+  </data>
+  <data name="Kinship_FZD" xml:space="preserve">
+    <value>paternal 1st cousin</value>
+  </data>
+  <data name="Kinship_FZS" xml:space="preserve">
+    <value>paternal 1st cousin</value>
+  </data>
+  <data name="Kinship_G" xml:space="preserve">
+    <value>sibling</value>
+  </data>
+  <data name="Kinship_GCCD" xml:space="preserve">
+    <value>great grand niece</value>
+  </data>
+  <data name="Kinship_GCCS" xml:space="preserve">
+    <value>great grand nephew</value>
+  </data>
+  <data name="Kinship_GCD" xml:space="preserve">
+    <value>grand niece</value>
+  </data>
+  <data name="Kinship_GCS" xml:space="preserve">
+    <value>grand nephew</value>
+  </data>
+  <data name="Kinship_GD" xml:space="preserve">
+    <value>niece</value>
+  </data>
+  <data name="Kinship_GH" xml:space="preserve">
+    <value>brother-in-law</value>
+  </data>
+  <data name="Kinship_GS" xml:space="preserve">
+    <value>nephew</value>
+  </data>
+  <data name="Kinship_GW" xml:space="preserve">
+    <value>sister-in-law</value>
+  </data>
+  <data name="Kinship_H" xml:space="preserve">
+    <value>husband</value>
+  </data>
+  <data name="Kinship_I" xml:space="preserve">
+    <value>self</value>
+  </data>
+  <data name="Kinship_M" xml:space="preserve">
+    <value>mother</value>
+  </data>
+  <data name="Kinship_MBC" xml:space="preserve">
+    <value>maternal 1st cousin</value>
+  </data>
+  <data name="Kinship_MBD" xml:space="preserve">
+    <value>maternal 1st cousin</value>
+  </data>
+  <data name="Kinship_MBS" xml:space="preserve">
+    <value>maternal 1st cousin</value>
+  </data>
+  <data name="Kinship_MF" xml:space="preserve">
+    <value>maternal grandfather</value>
+  </data>
+  <data name="Kinship_MGC" xml:space="preserve">
+    <value>maternal 1st cousin</value>
+  </data>
+  <data name="Kinship_MGD" xml:space="preserve">
+    <value>maternal 1st cousin</value>
+  </data>
+  <data name="Kinship_MGS" xml:space="preserve">
+    <value>maternal 1st cousin</value>
+  </data>
+  <data name="Kinship_MM" xml:space="preserve">
+    <value>maternal grandmother</value>
+  </data>
+  <data name="Kinship_MZC" xml:space="preserve">
+    <value>maternal 1st cousin</value>
+  </data>
+  <data name="Kinship_MZD" xml:space="preserve">
+    <value>maternal 1st cousin</value>
+  </data>
+  <data name="Kinship_MZS" xml:space="preserve">
+    <value>maternal 1st cousin</value>
+  </data>
+  <data name="Kinship_P" xml:space="preserve">
+    <value>parent</value>
+  </data>
+  <data name="Kinship_P#PGC#" xml:space="preserve">
+    <value>{1:ON} cousin {4:CN}x removed</value>
+  </data>
+  <data name="Kinship_P#PPCC#" xml:space="preserve">
+    <value>half {1:ON} cousin {4:CN}x removed</value>
+    <comment>Half cousins removed</comment>
+  </data>
+  <data name="Kinship_P#PPECC#" xml:space="preserve">
+    <value>step {1:ON} cousin {4:CN}x removed</value>
+    <comment>Step cousins removed</comment>
+  </data>
+  <data name="Kinship_PB" xml:space="preserve">
+    <value>uncle</value>
+  </data>
+  <data name="Kinship_PC" xml:space="preserve">
+    <value>half sibling</value>
+  </data>
+  <data name="Kinship_PCCCD" xml:space="preserve">
+    <value>half great grand niece</value>
+  </data>
+  <data name="Kinship_PCCCS" xml:space="preserve">
+    <value>half great grand nephew</value>
+  </data>
+  <data name="Kinship_PCCD" xml:space="preserve">
+    <value>half grand niece</value>
+  </data>
+  <data name="Kinship_PCCS" xml:space="preserve">
+    <value>half grand nephew</value>
+  </data>
+  <data name="Kinship_PCD" xml:space="preserve">
+    <value>half niece</value>
+  </data>
+  <data name="Kinship_PCS" xml:space="preserve">
+    <value>half nephew</value>
+  </data>
+  <data name="Kinship_PD" xml:space="preserve">
+    <value>half sister</value>
+  </data>
+  <data name="Kinship_PE" xml:space="preserve">
+    <value>stepparent</value>
+  </data>
+  <data name="Kinship_PEB" xml:space="preserve">
+    <value>step uncle</value>
+  </data>
+  <data name="Kinship_PEC" xml:space="preserve">
+    <value>step sibling</value>
+  </data>
+  <data name="Kinship_PECCCD" xml:space="preserve">
+    <value>step great grand niece</value>
+  </data>
+  <data name="Kinship_PECCCS" xml:space="preserve">
+    <value>step great grand nephew</value>
+  </data>
+  <data name="Kinship_PECCD" xml:space="preserve">
+    <value>step grand niece</value>
+  </data>
+  <data name="Kinship_PECCS" xml:space="preserve">
+    <value>step grand nephew</value>
+  </data>
+  <data name="Kinship_PECD" xml:space="preserve">
+    <value>step niece</value>
+  </data>
+  <data name="Kinship_PECS" xml:space="preserve">
+    <value>step nephew</value>
+  </data>
+  <data name="Kinship_PED" xml:space="preserve">
+    <value>stepsister</value>
+  </data>
+  <data name="Kinship_PEF" xml:space="preserve">
+    <value>step grandfather</value>
+  </data>
+  <data name="Kinship_PEM" xml:space="preserve">
+    <value>step grandmother</value>
+  </data>
+  <data name="Kinship_PEP" xml:space="preserve">
+    <value>step grandparent</value>
+  </data>
+  <data name="Kinship_PEPF" xml:space="preserve">
+    <value>step great grandfather</value>
+  </data>
+  <data name="Kinship_PEPM" xml:space="preserve">
+    <value>step great grandmother</value>
+  </data>
+  <data name="Kinship_PEPP" xml:space="preserve">
+    <value>step great grandparent</value>
+  </data>
+  <data name="Kinship_PES" xml:space="preserve">
+    <value>stepbrother</value>
+  </data>
+  <data name="Kinship_PEZ" xml:space="preserve">
+    <value>step aunt</value>
+  </data>
+  <data name="Kinship_PF" xml:space="preserve">
+    <value>grandfather</value>
+  </data>
+  <data name="Kinship_PGC" xml:space="preserve">
+    <value>1st cousin</value>
+  </data>
+  <data name="Kinship_PH" xml:space="preserve">
+    <value>stepfather</value>
+  </data>
+  <data name="Kinship_PM" xml:space="preserve">
+    <value>grandmother</value>
+  </data>
+  <data name="Kinship_PP" xml:space="preserve">
+    <value>grandparent</value>
+  </data>
+  <data name="Kinship_PPB" xml:space="preserve">
+    <value>great uncle</value>
+  </data>
+  <data name="Kinship_PPCC" xml:space="preserve">
+    <value>half 1st cousin</value>
+  </data>
+  <data name="Kinship_PPD" xml:space="preserve">
+    <value>half aunt</value>
+  </data>
+  <data name="Kinship_PPE" xml:space="preserve">
+    <value>step grandparent</value>
+  </data>
+  <data name="Kinship_PPECC" xml:space="preserve">
+    <value>step 1st cousin</value>
+  </data>
+  <data name="Kinship_PPED" xml:space="preserve">
+    <value>step aunt</value>
+  </data>
+  <data name="Kinship_PPES" xml:space="preserve">
+    <value>step uncle</value>
+  </data>
+  <data name="Kinship_PPF" xml:space="preserve">
+    <value>great grandfather</value>
+  </data>
+  <data name="Kinship_PPH" xml:space="preserve">
+    <value>step grandfather</value>
+  </data>
+  <data name="Kinship_PPM" xml:space="preserve">
+    <value>great grandmother</value>
+  </data>
+  <data name="Kinship_PPP" xml:space="preserve">
+    <value>great grandparent</value>
+  </data>
+  <data name="Kinship_PPPD" xml:space="preserve">
+    <value>half great aunt</value>
+  </data>
+  <data name="Kinship_PPPED" xml:space="preserve">
+    <value>step great aunt</value>
+  </data>
+  <data name="Kinship_PPPES" xml:space="preserve">
+    <value>step great uncle</value>
+  </data>
+  <data name="Kinship_PPPS" xml:space="preserve">
+    <value>half great uncle</value>
+  </data>
+  <data name="Kinship_PPS" xml:space="preserve">
+    <value>half uncle</value>
+  </data>
+  <data name="Kinship_PPW" xml:space="preserve">
+    <value>step grandmother</value>
+  </data>
+  <data name="Kinship_PPZ" xml:space="preserve">
+    <value>great aunt</value>
+  </data>
+  <data name="Kinship_PS" xml:space="preserve">
+    <value>half brother</value>
+  </data>
+  <data name="Kinship_PW" xml:space="preserve">
+    <value>stepmother</value>
+  </data>
+  <data name="Kinship_PZ" xml:space="preserve">
+    <value>aunt</value>
+  </data>
+  <data name="Kinship_S" xml:space="preserve">
+    <value>son</value>
+  </data>
+  <data name="Kinship_W" xml:space="preserve">
+    <value>wife</value>
+  </data>
+  <data name="Kinship_Z" xml:space="preserve">
+    <value>sister</value>
+  </data>
+  <data name="Ordinal_ND" xml:space="preserve">
+    <value>nd</value>
+    <comment>2nd, 22nd</comment>
+  </data>
+  <data name="Ordinal_RD" xml:space="preserve">
+    <value>rd</value>
+    <comment>3rd, 33rd</comment>
+  </data>
+  <data name="Ordinal_ST" xml:space="preserve">
+    <value>st</value>
+    <comment>1st, 21st</comment>
+  </data>
+  <data name="Ordinal_TH" xml:space="preserve">
+    <value>th</value>
+    <comment>11th, 44th</comment>
+  </data>
+</root>

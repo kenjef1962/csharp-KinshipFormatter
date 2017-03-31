@@ -1,0 +1,1605 @@
+Term,Expected
+B,brother
+C,child
+D,daughter
+E,spouse
+F,father
+G,sibling
+H,husband
+I,self
+M,mother
+P,parent
+S,son
+W,wife
+Z,sister
+,
+BC,child of brother
+BD,niece
+BS,nephew
+CC,grandchild
+CD,granddaughter
+CS,grandson
+DC,grandchild
+DD,granddaughter
+DS,grandson
+EB,brother-in-law
+EC,stepchild
+ED,stepdaughter
+EF,father-in-law
+EM,mother-in-law
+ES,stepson
+EZ,sister-in-law
+FB,uncle
+FD,half sister
+FE,stepparent
+FF,paternal grandfather
+FG,sibling of father
+FM,paternal grandmother
+FP,grandparent
+FS,half brother
+FW,stepmother
+FZ,aunt
+GC,child of sibling
+GD,niece
+GS,nephew
+HB,brother-in-law
+HF,father-in-law
+HM,mother-in-law
+HZ,sister-in-law
+MB,uncle
+MD,half sister
+ME,stepparent
+MF,maternal grandfather
+MG,sibling of mother
+MH,stepfather
+MM,maternal grandmother
+MP,grandparent
+MS,half brother
+MZ,aunt
+PB,uncle
+PD,half sister
+PE,stepparent
+PF,grandfather
+PG,sibling of parent
+PH,stepfather
+PM,grandmother
+PP,grandparent
+PS,half brother
+PW,stepmother
+PZ,aunt
+SC,grandchild
+SD,granddaughter
+SS,grandson
+WB,brother-in-law
+WF,father-in-law
+WM,mother-in-law
+WZ,sister-in-law
+ZC,child of sister
+ZD,niece
+ZS,nephew
+,
+CCC,great grandchild
+CCD,great granddaughter
+CCS,great grandson
+CDC,great grandchild
+CDD,great granddaughter
+CDS,great grandson
+CSC,great grandchild
+CSD,great granddaughter
+CSS,great grandson
+DCC,great grandchild
+DCD,great granddaughter
+DCS,great grandson
+DDC,great grandchild
+DDD,great granddaughter
+DDS,great grandson
+DSC,great grandchild
+DSD,great granddaughter
+DSS,great grandson
+ECC,step grandchild
+ECD,step granddaughter
+ECS,step grandson
+FBC,paternal 1st cousin
+FBD,paternal 1st cousin
+FBS,paternal 1st cousin
+FED,stepsister
+FES,stepbrother
+FFF,great grandfather
+FFM,great grandmother
+FFP,great grandparent
+FGC,paternal 1st cousin
+FGD,paternal 1st cousin
+FGS,paternal 1st cousin
+FMF,great grandfather
+FMM,great grandmother
+FMP,great grandparent
+FPF,great grandfather
+FPM,great grandmother
+FPP,great grandparent
+FWD,stepsister
+FWS,stepbrother
+FZC,paternal 1st cousin
+FZD,paternal 1st cousin
+FZS,paternal 1st cousin
+GCD,grand niece
+GCS,grand nephew
+MBC,maternal 1st cousin
+MBD,maternal 1st cousin
+MBS,maternal 1st cousin
+MED,stepsister
+MES,stepbrother
+MFF,great grandfather
+MFM,great grandmother
+MFP,great grandparent
+MGC,maternal 1st cousin
+MGD,maternal 1st cousin
+MGS,maternal 1st cousin
+MHD,stepsister
+MHS,stepbrother
+MMF,great grandfather
+MMM,great grandmother
+MMP,great grandparent
+MPF,great grandfather
+MPM,great grandmother
+MPP,great grandparent
+MZC,maternal 1st cousin
+MZD,maternal 1st cousin
+MZS,maternal 1st cousin
+PCD,half niece
+PCS,half nephew
+PEB,step uncle
+PED,stepsister
+PEF,step grandfather
+PEM,step grandmother
+PEP,step grandparent
+PES,stepbrother
+PEZ,step aunt
+PFF,great grandfather
+PFG,sibling of grandfather
+PFM,great grandmother
+PFP,great grandparent
+PGC,1st cousin
+PGD,1st cousin
+PGS,1st cousin
+PHD,stepsister
+PHS,stepbrother
+PMF,great grandfather
+PMG,sibling of grandmother
+PMM,great grandmother
+PMP,great grandparent
+PPB,great uncle
+PPD,half aunt
+PPE,step grandparent
+PPF,great grandfather
+PPG,sibling of grandparent
+PPH,step grandfather
+PPM,great grandmother
+PPP,great grandparent
+PPS,half uncle
+PPW,step grandmother
+PPZ,great aunt
+PWD,stepsister
+PWS,stepbrother
+SCC,great grandchild
+SCD,great granddaughter
+SCS,great grandson
+SDC,great grandchild
+SDD,great granddaughter
+SDS,great grandson
+SSC,great grandchild
+SSD,great granddaughter
+SSS,great grandson
+WFM,paternal grandmother of wife
+,
+CCCC,2nd great grandchild
+CCCD,2nd great granddaughter
+CCCS,2nd great grandson
+ECCC,step great grandchild
+ECCD,step great granddaughter
+ECCS,step great grandson
+GCCD,great grand niece
+GCCS,great grand nephew
+PCCD,half grand niece
+PCCS,half grand nephew
+PECD,step niece
+PECS,step nephew
+PEPF,step great grandfather
+PEPM,step great grandmother
+PEPP,step great grandparent
+PGCC,1st cousin 1x removed
+PGCD,1st cousin 1x removed
+PGCS,1st cousin 1x removed
+PPCC,half 1st cousin
+PPED,step aunt
+PPES,step uncle
+PPFG,sibling of great grandfather
+PPGC,1st cousin 1x removed
+PPGD,1st cousin 1x removed
+PPGS,1st cousin 1x removed
+PPMG,sibling of great grandmother
+PPPB,2nd great uncle
+PPPD,half great aunt
+PPPF,2nd great grandfather
+PPPG,sibling of great grandparent
+PPPM,2nd great grandmother
+PPPP,2nd great grandparent
+PPPS,half great uncle
+PPPZ,2nd great aunt
+,
+CCCCC,3rd great grandchild
+CCCCD,3rd great granddaughter
+CCCCS,3rd great grandson
+ECCCC,step 2nd great grandchild
+ECCCD,step 2nd great granddaughter
+ECCCS,step 2nd great grandson
+GCCCD,2nd great grand niece
+GCCCS,2nd great grand nephew
+PCCCD,half great grand niece
+PCCCS,half great grand nephew
+PECCD,step grand niece
+PECCS,step grand nephew
+PEPPF,step 2nd great grandfather
+PEPPM,step 2nd great grandmother
+PEPPP,step 2nd great grandparent
+PGCCC,1st cousin 2x removed
+PGCCD,1st cousin 2x removed
+PGCCS,1st cousin 2x removed
+PPCCC,half 1st cousin 1x removed
+PPECC,step 1st cousin
+PPGCC,2nd cousin
+PPGCD,2nd cousin
+PPGCS,2nd cousin
+PPPCC,half 1st cousin 1x removed
+PPPED,step great aunt
+PPPES,step great uncle
+PPPGC,1st cousin 2x removed
+PPPGD,1st cousin 2x removed
+PPPGS,1st cousin 2x removed
+PPPPB,3rd great uncle
+PPPPD,half 2nd great aunt
+PPPPF,3rd great grandfather
+PPPPM,3rd great grandmother
+PPPPP,3rd great grandparent
+PPPPS,half 2nd great uncle
+PPPPZ,3rd great aunt
+,
+CCCCCC,4th great grandchild
+CCCCCD,4th great granddaughter
+CCCCCS,4th great grandson
+GCCCCD,3rd great grand niece
+GCCCCS,3rd great grand nephew
+PCCCCD,half 2nd great grand niece
+PCCCCS,half 2nd great grand nephew
+PECCCD,step great grand niece
+PECCCS,step great grand nephew
+PEPPPF,step 3rd great grandfather
+PEPPPM,step 3rd great grandmother
+PEPPPP,step 3rd great grandparent
+PGCCCC,1st cousin 3x removed
+PGCCCD,1st cousin 3x removed
+PGCCCS,1st cousin 3x removed
+PPCCCC,half 1st cousin 2x removed
+PPECCC,step 1st cousin 1x removed
+PPGCCC,2nd cousin 1x removed
+PPGCCD,2nd cousin 1x removed
+PPGCCS,2nd cousin 1x removed
+PPPCCC,half 2nd cousin
+PPPECC,step 1st cousin 1x removed
+PPPGCC,2nd cousin 1x removed
+PPPGCD,2nd cousin 1x removed
+PPPGCS,2nd cousin 1x removed
+PPPPCC,half 1st cousin 2x removed
+PPPPED,step 2nd great aunt
+PPPPES,step 2nd great uncle
+PPPPGC,1st cousin 3x removed
+PPPPGD,1st cousin 3x removed
+PPPPGS,1st cousin 3x removed
+PPPPPB,4th great uncle
+PPPPPD,half 3rd great aunt
+PPPPPF,4th great grandfather
+PPPPPM,4th great grandmother
+PPPPPP,4th great grandparent
+PPPPPS,half 3rd great uncle
+PPPPPZ,4th great aunt
+,
+CCCCCCC,5th great grandchild
+CCCCCCD,5th great granddaughter
+CCCCCCS,5th great grandson
+GCCCCCD,4th great grand niece
+GCCCCCS,4th great grand nephew
+PCCCCCD,half 3rd great grand niece
+PCCCCCS,half 3rd great grand nephew
+PGCCCCC,1st cousin 4x removed
+PGCCCCD,1st cousin 4x removed
+PGCCCCS,1st cousin 4x removed
+PPCCCCC,half 1st cousin 3x removed
+PPECCCC,step 1st cousin 2x removed
+PPGCCCC,2nd cousin 2x removed
+PPGCCCD,2nd cousin 2x removed
+PPGCCCS,2nd cousin 2x removed
+PPPCCCC,half 2nd cousin 1x removed
+PPPECCC,step 2nd cousin
+PPPGCCC,3rd cousin
+PPPGCCD,3rd cousin
+PPPGCCS,3rd cousin
+PPPPCCC,half 2nd cousin 1x removed
+PPPPECC,step 1st cousin 2x removed
+PPPPGCC,2nd cousin 2x removed
+PPPPGCD,2nd cousin 2x removed
+PPPPGCS,2nd cousin 2x removed
+PPPPPCC,half 1st cousin 3x removed
+PPPPPED,step 3rd great aunt
+PPPPPES,step 3rd great uncle
+PPPPPGC,1st cousin 4x removed
+PPPPPGD,1st cousin 4x removed
+PPPPPGS,1st cousin 4x removed
+PPPPPPB,5th great uncle
+PPPPPPD,half 4th great aunt
+PPPPPPF,5th great grandfather
+PPPPPPM,5th great grandmother
+PPPPPPP,5th great grandparent
+PPPPPPS,half 4th great uncle
+PPPPPPZ,5th great aunt
+,
+CCCCCCCC,6th great grandchild
+CCCCCCCD,6th great granddaughter
+CCCCCCCS,6th great grandson
+GCCCCCCD,5th great grand niece
+GCCCCCCS,5th great grand nephew
+PGCCCCCC,1st cousin 5x removed
+PGCCCCCD,1st cousin 5x removed
+PGCCCCCS,1st cousin 5x removed
+PPCCCCCC,half 1st cousin 4x removed
+PPECCCCC,step 1st cousin 3x removed
+PPGCCCCC,2nd cousin 3x removed
+PPGCCCCD,2nd cousin 3x removed
+PPGCCCCS,2nd cousin 3x removed
+PPPCCCCC,half 2nd cousin 2x removed
+PPPECCCC,step 2nd cousin 1x removed
+PPPGCCCC,3rd cousin 1x removed
+PPPGCCCD,3rd cousin 1x removed
+PPPGCCCS,3rd cousin 1x removed
+PPPPCCCC,half 3rd cousin
+PPPPECCC,step 2nd cousin 1x removed
+PPPPGCCC,3rd cousin 1x removed
+PPPPGCCD,3rd cousin 1x removed
+PPPPGCCS,3rd cousin 1x removed
+PPPPPCCC,half 2nd cousin 2x removed
+PPPPPECC,step 1st cousin 3x removed
+PPPPPGCC,2nd cousin 3x removed
+PPPPPGCD,2nd cousin 3x removed
+PPPPPGCS,2nd cousin 3x removed
+PPPPPPCC,half 1st cousin 4x removed
+PPPPPPED,step 4th great aunt
+PPPPPPES,step 4th great uncle
+PPPPPPGC,1st cousin 5x removed
+PPPPPPGD,1st cousin 5x removed
+PPPPPPGS,1st cousin 5x removed
+PPPPPPPB,6th great uncle
+PPPPPPPD,half 5th great aunt
+PPPPPPPF,6th great grandfather
+PPPPPPPM,6th great grandmother
+PPPPPPPP,6th great grandparent
+PPPPPPPS,half 5th great uncle
+PPPPPPPZ,6th great aunt
+,
+CCCCCCCCC,7th great grandchild
+CCCCCCCCD,7th great granddaughter
+CCCCCCCCS,7th great grandson
+GCCCCCCCD,6th great grand niece
+GCCCCCCCS,6th great grand nephew
+PGCCCCCCC,1st cousin 6x removed
+PGCCCCCCD,1st cousin 6x removed
+PGCCCCCCS,1st cousin 6x removed
+PPCCCCCCC,half 1st cousin 5x removed
+PPECCCCCC,step 1st cousin 4x removed
+PPGCCCCCC,2nd cousin 4x removed
+PPGCCCCCD,2nd cousin 4x removed
+PPGCCCCCS,2nd cousin 4x removed
+PPPCCCCCC,half 2nd cousin 3x removed
+PPPECCCCC,step 2nd cousin 2x removed
+PPPGCCCCC,3rd cousin 2x removed
+PPPGCCCCD,3rd cousin 2x removed
+PPPGCCCCS,3rd cousin 2x removed
+PPPPCCCCC,half 3rd cousin 1x removed
+PPPPECCCC,step 3rd cousin
+PPPPGCCCC,4th cousin
+PPPPGCCCD,4th cousin
+PPPPGCCCS,4th cousin
+PPPPPCCCC,half 3rd cousin 1x removed
+PPPPPECCC,step 2nd cousin 2x removed
+PPPPPGCCC,3rd cousin 2x removed
+PPPPPGCCD,3rd cousin 2x removed
+PPPPPGCCS,3rd cousin 2x removed
+PPPPPPCCC,half 2nd cousin 3x removed
+PPPPPPECC,step 1st cousin 4x removed
+PPPPPPGCC,2nd cousin 4x removed
+PPPPPPGCD,2nd cousin 4x removed
+PPPPPPGCS,2nd cousin 4x removed
+PPPPPPPCC,half 1st cousin 5x removed
+PPPPPPPED,step 5th great aunt
+PPPPPPPES,step 5th great uncle
+PPPPPPPGC,1st cousin 6x removed
+PPPPPPPGD,1st cousin 6x removed
+PPPPPPPGS,1st cousin 6x removed
+PPPPPPPPB,7th great uncle
+PPPPPPPPD,half 6th great aunt
+PPPPPPPPF,7th great grandfather
+PPPPPPPPM,7th great grandmother
+PPPPPPPPP,7th great grandparent
+PPPPPPPPS,half 6th great uncle
+PPPPPPPPZ,7th great aunt
+,
+CCCCCCCCCC,8th great grandchild
+CCCCCCCCCD,8th great granddaughter
+CCCCCCCCCS,8th great grandson
+GCCCCCCCCD,7th great grand niece
+GCCCCCCCCS,7th great grand nephew
+PGCCCCCCCC,1st cousin 7x removed
+PGCCCCCCCD,1st cousin 7x removed
+PGCCCCCCCS,1st cousin 7x removed
+PPCCCCCCCC,half 1st cousin 6x removed
+PPECCCCCCC,step 1st cousin 5x removed
+PPGCCCCCCC,2nd cousin 5x removed
+PPGCCCCCCD,2nd cousin 5x removed
+PPGCCCCCCS,2nd cousin 5x removed
+PPPCCCCCCC,half 2nd cousin 4x removed
+PPPECCCCCC,step 2nd cousin 3x removed
+PPPGCCCCCC,3rd cousin 3x removed
+PPPGCCCCCD,3rd cousin 3x removed
+PPPGCCCCCS,3rd cousin 3x removed
+PPPPCCCCCC,half 3rd cousin 2x removed
+PPPPECCCCC,step 3rd cousin 1x removed
+PPPPGCCCCC,4th cousin 1x removed
+PPPPGCCCCD,4th cousin 1x removed
+PPPPGCCCCS,4th cousin 1x removed
+PPPPPCCCCC,half 4th cousin
+PPPPPECCCC,step 3rd cousin 1x removed
+PPPPPGCCCC,4th cousin 1x removed
+PPPPPGCCCD,4th cousin 1x removed
+PPPPPGCCCS,4th cousin 1x removed
+PPPPPPCCCC,half 3rd cousin 2x removed
+PPPPPPECCC,step 2nd cousin 3x removed
+PPPPPPGCCC,3rd cousin 3x removed
+PPPPPPGCCD,3rd cousin 3x removed
+PPPPPPGCCS,3rd cousin 3x removed
+PPPPPPPCCC,half 2nd cousin 4x removed
+PPPPPPPECC,step 1st cousin 5x removed
+PPPPPPPGCC,2nd cousin 5x removed
+PPPPPPPGCD,2nd cousin 5x removed
+PPPPPPPGCS,2nd cousin 5x removed
+PPPPPPPPCC,half 1st cousin 6x removed
+PPPPPPPPED,step 6th great aunt
+PPPPPPPPES,step 6th great uncle
+PPPPPPPPGC,1st cousin 7x removed
+PPPPPPPPGD,1st cousin 7x removed
+PPPPPPPPGS,1st cousin 7x removed
+PPPPPPPPPB,8th great uncle
+PPPPPPPPPD,half 7th great aunt
+PPPPPPPPPF,8th great grandfather
+PPPPPPPPPM,8th great grandmother
+PPPPPPPPPP,8th great grandparent
+PPPPPPPPPS,half 7th great uncle
+PPPPPPPPPZ,8th great aunt
+,
+CCCCCCCCCCC,9th great grandchild
+CCCCCCCCCCD,9th great granddaughter
+CCCCCCCCCCS,9th great grandson
+GCCCCCCCCCD,8th great grand niece
+GCCCCCCCCCS,8th great grand nephew
+PGCCCCCCCCC,1st cousin 8x removed
+PGCCCCCCCCD,1st cousin 8x removed
+PGCCCCCCCCS,1st cousin 8x removed
+PPCCCCCCCCC,half 1st cousin 7x removed
+PPECCCCCCCC,step 1st cousin 6x removed
+PPGCCCCCCCC,2nd cousin 6x removed
+PPGCCCCCCCD,2nd cousin 6x removed
+PPGCCCCCCCS,2nd cousin 6x removed
+PPPCCCCCCCC,half 2nd cousin 5x removed
+PPPECCCCCCC,step 2nd cousin 4x removed
+PPPGCCCCCCC,3rd cousin 4x removed
+PPPGCCCCCCD,3rd cousin 4x removed
+PPPGCCCCCCS,3rd cousin 4x removed
+PPPPCCCCCCC,half 3rd cousin 3x removed
+PPPPECCCCCC,step 3rd cousin 2x removed
+PPPPGCCCCCC,4th cousin 2x removed
+PPPPGCCCCCD,4th cousin 2x removed
+PPPPGCCCCCS,4th cousin 2x removed
+PPPPPCCCCCC,half 4th cousin 1x removed
+PPPPPECCCCC,step 4th cousin
+PPPPPGCCCCC,5th cousin
+PPPPPGCCCCD,5th cousin
+PPPPPGCCCCS,5th cousin
+PPPPPPCCCCC,half 4th cousin 1x removed
+PPPPPPECCCC,step 3rd cousin 2x removed
+PPPPPPGCCCC,4th cousin 2x removed
+PPPPPPGCCCD,4th cousin 2x removed
+PPPPPPGCCCS,4th cousin 2x removed
+PPPPPPPCCCC,half 3rd cousin 3x removed
+PPPPPPPECCC,step 2nd cousin 4x removed
+PPPPPPPGCCC,3rd cousin 4x removed
+PPPPPPPGCCD,3rd cousin 4x removed
+PPPPPPPGCCS,3rd cousin 4x removed
+PPPPPPPPCCC,half 2nd cousin 5x removed
+PPPPPPPPECC,step 1st cousin 6x removed
+PPPPPPPPGCC,2nd cousin 6x removed
+PPPPPPPPGCD,2nd cousin 6x removed
+PPPPPPPPGCS,2nd cousin 6x removed
+PPPPPPPPPCC,half 1st cousin 7x removed
+PPPPPPPPPED,step 7th great aunt
+PPPPPPPPPES,step 7th great uncle
+PPPPPPPPPGC,1st cousin 8x removed
+PPPPPPPPPGD,1st cousin 8x removed
+PPPPPPPPPGS,1st cousin 8x removed
+PPPPPPPPPPB,9th great uncle
+PPPPPPPPPPD,half 8th great aunt
+PPPPPPPPPPF,9th great grandfather
+PPPPPPPPPPM,9th great grandmother
+PPPPPPPPPPP,9th great grandparent
+PPPPPPPPPPS,half 8th great uncle
+PPPPPPPPPPZ,9th great aunt
+,
+CCCCCCCCCCCC,10th great grandchild
+CCCCCCCCCCCD,10th great granddaughter
+CCCCCCCCCCCS,10th great grandson
+GCCCCCCCCCCD,9th great grand niece
+GCCCCCCCCCCS,9th great grand nephew
+PGCCCCCCCCCC,1st cousin 9x removed
+PGCCCCCCCCCD,1st cousin 9x removed
+PGCCCCCCCCCS,1st cousin 9x removed
+PPCCCCCCCCCC,half 1st cousin 8x removed
+PPECCCCCCCCC,step 1st cousin 7x removed
+PPGCCCCCCCCC,2nd cousin 7x removed
+PPGCCCCCCCCD,2nd cousin 7x removed
+PPGCCCCCCCCS,2nd cousin 7x removed
+PPPCCCCCCCCC,half 2nd cousin 6x removed
+PPPECCCCCCCC,step 2nd cousin 5x removed
+PPPGCCCCCCCC,3rd cousin 5x removed
+PPPGCCCCCCCD,3rd cousin 5x removed
+PPPGCCCCCCCS,3rd cousin 5x removed
+PPPPCCCCCCCC,half 3rd cousin 4x removed
+PPPPECCCCCCC,step 3rd cousin 3x removed
+PPPPGCCCCCCC,4th cousin 3x removed
+PPPPGCCCCCCD,4th cousin 3x removed
+PPPPGCCCCCCS,4th cousin 3x removed
+PPPPPCCCCCCC,half 4th cousin 2x removed
+PPPPPECCCCCC,step 4th cousin 1x removed
+PPPPPGCCCCCC,5th cousin 1x removed
+PPPPPGCCCCCD,5th cousin 1x removed
+PPPPPGCCCCCS,5th cousin 1x removed
+PPPPPPCCCCCC,half 5th cousin
+PPPPPPECCCCC,step 4th cousin 1x removed
+PPPPPPGCCCCC,5th cousin 1x removed
+PPPPPPGCCCCD,5th cousin 1x removed
+PPPPPPGCCCCS,5th cousin 1x removed
+PPPPPPPCCCCC,half 4th cousin 2x removed
+PPPPPPPECCCC,step 3rd cousin 3x removed
+PPPPPPPGCCCC,4th cousin 3x removed
+PPPPPPPGCCCD,4th cousin 3x removed
+PPPPPPPGCCCS,4th cousin 3x removed
+PPPPPPPPCCCC,half 3rd cousin 4x removed
+PPPPPPPPECCC,step 2nd cousin 5x removed
+PPPPPPPPGCCC,3rd cousin 5x removed
+PPPPPPPPGCCD,3rd cousin 5x removed
+PPPPPPPPGCCS,3rd cousin 5x removed
+PPPPPPPPPCCC,half 2nd cousin 6x removed
+PPPPPPPPPECC,step 1st cousin 7x removed
+PPPPPPPPPGCC,2nd cousin 7x removed
+PPPPPPPPPGCD,2nd cousin 7x removed
+PPPPPPPPPGCS,2nd cousin 7x removed
+PPPPPPPPPPCC,half 1st cousin 8x removed
+PPPPPPPPPPED,step 8th great aunt
+PPPPPPPPPPES,step 8th great uncle
+PPPPPPPPPPGC,1st cousin 9x removed
+PPPPPPPPPPGD,1st cousin 9x removed
+PPPPPPPPPPGS,1st cousin 9x removed
+PPPPPPPPPPPB,10th great uncle
+PPPPPPPPPPPD,half 9th great aunt
+PPPPPPPPPPPF,10th great grandfather
+PPPPPPPPPPPM,10th great grandmother
+PPPPPPPPPPPP,10th great grandparent
+PPPPPPPPPPPS,half 9th great uncle
+PPPPPPPPPPPZ,10th great aunt
+,
+CCCCCCCCCCCCC,11th great grandchild
+CCCCCCCCCCCCD,11th great granddaughter
+CCCCCCCCCCCCS,11th great grandson
+GCCCCCCCCCCCD,10th great grand niece
+GCCCCCCCCCCCS,10th great grand nephew
+PGCCCCCCCCCCC,1st cousin 10x removed
+PGCCCCCCCCCCD,1st cousin 10x removed
+PGCCCCCCCCCCS,1st cousin 10x removed
+PPCCCCCCCCCCC,half 1st cousin 9x removed
+PPECCCCCCCCCC,step 1st cousin 8x removed
+PPGCCCCCCCCCC,2nd cousin 8x removed
+PPGCCCCCCCCCD,2nd cousin 8x removed
+PPGCCCCCCCCCS,2nd cousin 8x removed
+PPPCCCCCCCCCC,half 2nd cousin 7x removed
+PPPECCCCCCCCC,step 2nd cousin 6x removed
+PPPGCCCCCCCCC,3rd cousin 6x removed
+PPPGCCCCCCCCD,3rd cousin 6x removed
+PPPGCCCCCCCCS,3rd cousin 6x removed
+PPPPCCCCCCCCC,half 3rd cousin 5x removed
+PPPPECCCCCCCC,step 3rd cousin 4x removed
+PPPPGCCCCCCCC,4th cousin 4x removed
+PPPPGCCCCCCCD,4th cousin 4x removed
+PPPPGCCCCCCCS,4th cousin 4x removed
+PPPPPCCCCCCCC,half 4th cousin 3x removed
+PPPPPECCCCCCC,step 4th cousin 2x removed
+PPPPPGCCCCCCC,5th cousin 2x removed
+PPPPPGCCCCCCD,5th cousin 2x removed
+PPPPPGCCCCCCS,5th cousin 2x removed
+PPPPPPCCCCCCC,half 5th cousin 1x removed
+PPPPPPECCCCCC,step 5th cousin
+PPPPPPGCCCCCC,6th cousin
+PPPPPPGCCCCCD,6th cousin
+PPPPPPGCCCCCS,6th cousin
+PPPPPPPCCCCCC,half 5th cousin 1x removed
+PPPPPPPECCCCC,step 4th cousin 2x removed
+PPPPPPPGCCCCC,5th cousin 2x removed
+PPPPPPPGCCCCD,5th cousin 2x removed
+PPPPPPPGCCCCS,5th cousin 2x removed
+PPPPPPPPCCCCC,half 4th cousin 3x removed
+PPPPPPPPECCCC,step 3rd cousin 4x removed
+PPPPPPPPGCCCC,4th cousin 4x removed
+PPPPPPPPGCCCD,4th cousin 4x removed
+PPPPPPPPGCCCS,4th cousin 4x removed
+PPPPPPPPPCCCC,half 3rd cousin 5x removed
+PPPPPPPPPECCC,step 2nd cousin 6x removed
+PPPPPPPPPGCCC,3rd cousin 6x removed
+PPPPPPPPPGCCD,3rd cousin 6x removed
+PPPPPPPPPGCCS,3rd cousin 6x removed
+PPPPPPPPPPCCC,half 2nd cousin 7x removed
+PPPPPPPPPPECC,step 1st cousin 8x removed
+PPPPPPPPPPGCC,2nd cousin 8x removed
+PPPPPPPPPPGCD,2nd cousin 8x removed
+PPPPPPPPPPGCS,2nd cousin 8x removed
+PPPPPPPPPPPCC,half 1st cousin 9x removed
+PPPPPPPPPPPED,step 9th great aunt
+PPPPPPPPPPPES,step 9th great uncle
+PPPPPPPPPPPGC,1st cousin 10x removed
+PPPPPPPPPPPGD,1st cousin 10x removed
+PPPPPPPPPPPGS,1st cousin 10x removed
+PPPPPPPPPPPPB,11th great uncle
+PPPPPPPPPPPPD,half 10th great aunt
+PPPPPPPPPPPPF,11th great grandfather
+PPPPPPPPPPPPM,11th great grandmother
+PPPPPPPPPPPPP,11th great grandparent
+PPPPPPPPPPPPS,half 10th great uncle
+PPPPPPPPPPPPZ,11th great aunt
+,
+CCCCCCCCCCCCCC,12th great grandchild
+CCCCCCCCCCCCCD,12th great granddaughter
+CCCCCCCCCCCCCS,12th great grandson
+GCCCCCCCCCCCCD,11th great grand niece
+GCCCCCCCCCCCCS,11th great grand nephew
+PPCCCCCCCCCCCC,half 1st cousin 10x removed
+PPECCCCCCCCCCC,step 1st cousin 9x removed
+PPGCCCCCCCCCCC,2nd cousin 9x removed
+PPGCCCCCCCCCCD,2nd cousin 9x removed
+PPGCCCCCCCCCCS,2nd cousin 9x removed
+PPPCCCCCCCCCCC,half 2nd cousin 8x removed
+PPPECCCCCCCCCC,step 2nd cousin 7x removed
+PPPGCCCCCCCCCC,3rd cousin 7x removed
+PPPGCCCCCCCCCD,3rd cousin 7x removed
+PPPGCCCCCCCCCS,3rd cousin 7x removed
+PPPPCCCCCCCCCC,half 3rd cousin 6x removed
+PPPPECCCCCCCCC,step 3rd cousin 5x removed
+PPPPGCCCCCCCCC,4th cousin 5x removed
+PPPPGCCCCCCCCD,4th cousin 5x removed
+PPPPGCCCCCCCCS,4th cousin 5x removed
+PPPPPCCCCCCCCC,half 4th cousin 4x removed
+PPPPPECCCCCCCC,step 4th cousin 3x removed
+PPPPPGCCCCCCCC,5th cousin 3x removed
+PPPPPGCCCCCCCD,5th cousin 3x removed
+PPPPPGCCCCCCCS,5th cousin 3x removed
+PPPPPPCCCCCCCC,half 5th cousin 2x removed
+PPPPPPECCCCCCC,step 5th cousin 1x removed
+PPPPPPGCCCCCCC,6th cousin 1x removed
+PPPPPPGCCCCCCD,6th cousin 1x removed
+PPPPPPGCCCCCCS,6th cousin 1x removed
+PPPPPPPCCCCCCC,half 6th cousin
+PPPPPPPECCCCCC,step 5th cousin 1x removed
+PPPPPPPGCCCCCC,6th cousin 1x removed
+PPPPPPPGCCCCCD,6th cousin 1x removed
+PPPPPPPGCCCCCS,6th cousin 1x removed
+PPPPPPPPCCCCCC,half 5th cousin 2x removed
+PPPPPPPPECCCCC,step 4th cousin 3x removed
+PPPPPPPPGCCCCC,5th cousin 3x removed
+PPPPPPPPGCCCCD,5th cousin 3x removed
+PPPPPPPPGCCCCS,5th cousin 3x removed
+PPPPPPPPPCCCCC,half 4th cousin 4x removed
+PPPPPPPPPECCCC,step 3rd cousin 5x removed
+PPPPPPPPPGCCCC,4th cousin 5x removed
+PPPPPPPPPGCCCD,4th cousin 5x removed
+PPPPPPPPPGCCCS,4th cousin 5x removed
+PPPPPPPPPPCCCC,half 3rd cousin 6x removed
+PPPPPPPPPPECCC,step 2nd cousin 7x removed
+PPPPPPPPPPGCCC,3rd cousin 7x removed
+PPPPPPPPPPGCCD,3rd cousin 7x removed
+PPPPPPPPPPGCCS,3rd cousin 7x removed
+PPPPPPPPPPPCCC,half 2nd cousin 8x removed
+PPPPPPPPPPPECC,step 1st cousin 9x removed
+PPPPPPPPPPPGCC,2nd cousin 9x removed
+PPPPPPPPPPPGCD,2nd cousin 9x removed
+PPPPPPPPPPPGCS,2nd cousin 9x removed
+PPPPPPPPPPPPCC,half 1st cousin 10x removed
+PPPPPPPPPPPPED,step 10th great aunt
+PPPPPPPPPPPPES,step 10th great uncle
+PPPPPPPPPPPPPB,12th great uncle
+PPPPPPPPPPPPPD,half 11th great aunt
+PPPPPPPPPPPPPF,12th great grandfather
+PPPPPPPPPPPPPM,12th great grandmother
+PPPPPPPPPPPPPP,12th great grandparent
+PPPPPPPPPPPPPS,half 11th great uncle
+PPPPPPPPPPPPPZ,12th great aunt
+,
+CCCCCCCCCCCCCCC,13th great grandchild
+CCCCCCCCCCCCCCD,13th great granddaughter
+CCCCCCCCCCCCCCS,13th great grandson
+GCCCCCCCCCCCCCD,12th great grand niece
+GCCCCCCCCCCCCCS,12th great grand nephew
+PPECCCCCCCCCCCC,step 1st cousin 10x removed
+PPGCCCCCCCCCCCC,2nd cousin 10x removed
+PPGCCCCCCCCCCCD,2nd cousin 10x removed
+PPGCCCCCCCCCCCS,2nd cousin 10x removed
+PPPCCCCCCCCCCCC,half 2nd cousin 9x removed
+PPPECCCCCCCCCCC,step 2nd cousin 8x removed
+PPPGCCCCCCCCCCC,3rd cousin 8x removed
+PPPGCCCCCCCCCCD,3rd cousin 8x removed
+PPPGCCCCCCCCCCS,3rd cousin 8x removed
+PPPPCCCCCCCCCCC,half 3rd cousin 7x removed
+PPPPECCCCCCCCCC,step 3rd cousin 6x removed
+PPPPGCCCCCCCCCC,4th cousin 6x removed
+PPPPGCCCCCCCCCD,4th cousin 6x removed
+PPPPGCCCCCCCCCS,4th cousin 6x removed
+PPPPPCCCCCCCCCC,half 4th cousin 5x removed
+PPPPPECCCCCCCCC,step 4th cousin 4x removed
+PPPPPGCCCCCCCCC,5th cousin 4x removed
+PPPPPGCCCCCCCCD,5th cousin 4x removed
+PPPPPGCCCCCCCCS,5th cousin 4x removed
+PPPPPPCCCCCCCCC,half 5th cousin 3x removed
+PPPPPPECCCCCCCC,step 5th cousin 2x removed
+PPPPPPGCCCCCCCC,6th cousin 2x removed
+PPPPPPGCCCCCCCD,6th cousin 2x removed
+PPPPPPGCCCCCCCS,6th cousin 2x removed
+PPPPPPPCCCCCCCC,half 6th cousin 1x removed
+PPPPPPPECCCCCCC,step 6th cousin
+PPPPPPPGCCCCCCC,7th cousin
+PPPPPPPGCCCCCCD,7th cousin
+PPPPPPPGCCCCCCS,7th cousin
+PPPPPPPPCCCCCCC,half 6th cousin 1x removed
+PPPPPPPPECCCCCC,step 5th cousin 2x removed
+PPPPPPPPGCCCCCC,6th cousin 2x removed
+PPPPPPPPGCCCCCD,6th cousin 2x removed
+PPPPPPPPGCCCCCS,6th cousin 2x removed
+PPPPPPPPPCCCCCC,half 5th cousin 3x removed
+PPPPPPPPPECCCCC,step 4th cousin 4x removed
+PPPPPPPPPGCCCCC,5th cousin 4x removed
+PPPPPPPPPGCCCCD,5th cousin 4x removed
+PPPPPPPPPGCCCCS,5th cousin 4x removed
+PPPPPPPPPPCCCCC,half 4th cousin 5x removed
+PPPPPPPPPPECCCC,step 3rd cousin 6x removed
+PPPPPPPPPPGCCCC,4th cousin 6x removed
+PPPPPPPPPPGCCCD,4th cousin 6x removed
+PPPPPPPPPPGCCCS,4th cousin 6x removed
+PPPPPPPPPPPCCCC,half 3rd cousin 7x removed
+PPPPPPPPPPPECCC,step 2nd cousin 8x removed
+PPPPPPPPPPPGCCC,3rd cousin 8x removed
+PPPPPPPPPPPGCCD,3rd cousin 8x removed
+PPPPPPPPPPPGCCS,3rd cousin 8x removed
+PPPPPPPPPPPPCCC,half 2nd cousin 9x removed
+PPPPPPPPPPPPECC,step 1st cousin 10x removed
+PPPPPPPPPPPPGCC,2nd cousin 10x removed
+PPPPPPPPPPPPGCD,2nd cousin 10x removed
+PPPPPPPPPPPPGCS,2nd cousin 10x removed
+PPPPPPPPPPPPPED,step 11th great aunt
+PPPPPPPPPPPPPES,step 11th great uncle
+PPPPPPPPPPPPPPB,13th great uncle
+PPPPPPPPPPPPPPD,half 12th great aunt
+PPPPPPPPPPPPPPF,13th great grandfather
+PPPPPPPPPPPPPPM,13th great grandmother
+PPPPPPPPPPPPPPP,13th great grandparent
+PPPPPPPPPPPPPPS,half 12th great uncle
+PPPPPPPPPPPPPPZ,13th great aunt
+,
+CCCCCCCCCCCCCCCC,14th great grandchild
+CCCCCCCCCCCCCCCD,14th great granddaughter
+CCCCCCCCCCCCCCCS,14th great grandson
+GCCCCCCCCCCCCCCD,13th great grand niece
+GCCCCCCCCCCCCCCS,13th great grand nephew
+PPPCCCCCCCCCCCCC,half 2nd cousin 10x removed
+PPPECCCCCCCCCCCC,step 2nd cousin 9x removed
+PPPGCCCCCCCCCCCC,3rd cousin 9x removed
+PPPGCCCCCCCCCCCD,3rd cousin 9x removed
+PPPGCCCCCCCCCCCS,3rd cousin 9x removed
+PPPPCCCCCCCCCCCC,half 3rd cousin 8x removed
+PPPPECCCCCCCCCCC,step 3rd cousin 7x removed
+PPPPGCCCCCCCCCCC,4th cousin 7x removed
+PPPPGCCCCCCCCCCD,4th cousin 7x removed
+PPPPGCCCCCCCCCCS,4th cousin 7x removed
+PPPPPCCCCCCCCCCC,half 4th cousin 6x removed
+PPPPPECCCCCCCCCC,step 4th cousin 5x removed
+PPPPPGCCCCCCCCCC,5th cousin 5x removed
+PPPPPGCCCCCCCCCD,5th cousin 5x removed
+PPPPPGCCCCCCCCCS,5th cousin 5x removed
+PPPPPPCCCCCCCCCC,half 5th cousin 4x removed
+PPPPPPECCCCCCCCC,step 5th cousin 3x removed
+PPPPPPGCCCCCCCCC,6th cousin 3x removed
+PPPPPPGCCCCCCCCD,6th cousin 3x removed
+PPPPPPGCCCCCCCCS,6th cousin 3x removed
+PPPPPPPCCCCCCCCC,half 6th cousin 2x removed
+PPPPPPPECCCCCCCC,step 6th cousin 1x removed
+PPPPPPPGCCCCCCCC,7th cousin 1x removed
+PPPPPPPGCCCCCCCD,7th cousin 1x removed
+PPPPPPPGCCCCCCCS,7th cousin 1x removed
+PPPPPPPPCCCCCCCC,half 7th cousin
+PPPPPPPPECCCCCCC,step 6th cousin 1x removed
+PPPPPPPPGCCCCCCC,7th cousin 1x removed
+PPPPPPPPGCCCCCCD,7th cousin 1x removed
+PPPPPPPPGCCCCCCS,7th cousin 1x removed
+PPPPPPPPPCCCCCCC,half 6th cousin 2x removed
+PPPPPPPPPECCCCCC,step 5th cousin 3x removed
+PPPPPPPPPGCCCCCC,6th cousin 3x removed
+PPPPPPPPPGCCCCCD,6th cousin 3x removed
+PPPPPPPPPGCCCCCS,6th cousin 3x removed
+PPPPPPPPPPCCCCCC,half 5th cousin 4x removed
+PPPPPPPPPPECCCCC,step 4th cousin 5x removed
+PPPPPPPPPPGCCCCC,5th cousin 5x removed
+PPPPPPPPPPGCCCCD,5th cousin 5x removed
+PPPPPPPPPPGCCCCS,5th cousin 5x removed
+PPPPPPPPPPPCCCCC,half 4th cousin 6x removed
+PPPPPPPPPPPECCCC,step 3rd cousin 7x removed
+PPPPPPPPPPPGCCCC,4th cousin 7x removed
+PPPPPPPPPPPGCCCD,4th cousin 7x removed
+PPPPPPPPPPPGCCCS,4th cousin 7x removed
+PPPPPPPPPPPPCCCC,half 3rd cousin 8x removed
+PPPPPPPPPPPPECCC,step 2nd cousin 9x removed
+PPPPPPPPPPPPGCCC,3rd cousin 9x removed
+PPPPPPPPPPPPGCCD,3rd cousin 9x removed
+PPPPPPPPPPPPGCCS,3rd cousin 9x removed
+PPPPPPPPPPPPPCCC,half 2nd cousin 10x removed
+PPPPPPPPPPPPPPED,step 12th great aunt
+PPPPPPPPPPPPPPES,step 12th great uncle
+PPPPPPPPPPPPPPPB,14th great uncle
+PPPPPPPPPPPPPPPD,half 13th great aunt
+PPPPPPPPPPPPPPPF,14th great grandfather
+PPPPPPPPPPPPPPPM,14th great grandmother
+PPPPPPPPPPPPPPPP,14th great grandparent
+PPPPPPPPPPPPPPPS,half 13th great uncle
+PPPPPPPPPPPPPPPZ,14th great aunt
+,
+CCCCCCCCCCCCCCCCC,15th great grandchild
+CCCCCCCCCCCCCCCCD,15th great granddaughter
+CCCCCCCCCCCCCCCCS,15th great grandson
+GCCCCCCCCCCCCCCCD,14th great grand niece
+GCCCCCCCCCCCCCCCS,14th great grand nephew
+PPPECCCCCCCCCCCCC,step 2nd cousin 10x removed
+PPPGCCCCCCCCCCCCC,3rd cousin 10x removed
+PPPGCCCCCCCCCCCCD,3rd cousin 10x removed
+PPPGCCCCCCCCCCCCS,3rd cousin 10x removed
+PPPPCCCCCCCCCCCCC,half 3rd cousin 9x removed
+PPPPECCCCCCCCCCCC,step 3rd cousin 8x removed
+PPPPGCCCCCCCCCCCC,4th cousin 8x removed
+PPPPGCCCCCCCCCCCD,4th cousin 8x removed
+PPPPGCCCCCCCCCCCS,4th cousin 8x removed
+PPPPPCCCCCCCCCCCC,half 4th cousin 7x removed
+PPPPPECCCCCCCCCCC,step 4th cousin 6x removed
+PPPPPGCCCCCCCCCCC,5th cousin 6x removed
+PPPPPGCCCCCCCCCCD,5th cousin 6x removed
+PPPPPGCCCCCCCCCCS,5th cousin 6x removed
+PPPPPPCCCCCCCCCCC,half 5th cousin 5x removed
+PPPPPPECCCCCCCCCC,step 5th cousin 4x removed
+PPPPPPGCCCCCCCCCC,6th cousin 4x removed
+PPPPPPGCCCCCCCCCD,6th cousin 4x removed
+PPPPPPGCCCCCCCCCS,6th cousin 4x removed
+PPPPPPPCCCCCCCCCC,half 6th cousin 3x removed
+PPPPPPPECCCCCCCCC,step 6th cousin 2x removed
+PPPPPPPGCCCCCCCCC,7th cousin 2x removed
+PPPPPPPGCCCCCCCCD,7th cousin 2x removed
+PPPPPPPGCCCCCCCCS,7th cousin 2x removed
+PPPPPPPPCCCCCCCCC,half 7th cousin 1x removed
+PPPPPPPPECCCCCCCC,step 7th cousin
+PPPPPPPPGCCCCCCCC,8th cousin
+PPPPPPPPGCCCCCCCD,8th cousin
+PPPPPPPPGCCCCCCCS,8th cousin
+PPPPPPPPPCCCCCCCC,half 7th cousin 1x removed
+PPPPPPPPPECCCCCCC,step 6th cousin 2x removed
+PPPPPPPPPGCCCCCCC,7th cousin 2x removed
+PPPPPPPPPGCCCCCCD,7th cousin 2x removed
+PPPPPPPPPGCCCCCCS,7th cousin 2x removed
+PPPPPPPPPPCCCCCCC,half 6th cousin 3x removed
+PPPPPPPPPPECCCCCC,step 5th cousin 4x removed
+PPPPPPPPPPGCCCCCC,6th cousin 4x removed
+PPPPPPPPPPGCCCCCD,6th cousin 4x removed
+PPPPPPPPPPGCCCCCS,6th cousin 4x removed
+PPPPPPPPPPPCCCCCC,half 5th cousin 5x removed
+PPPPPPPPPPPECCCCC,step 4th cousin 6x removed
+PPPPPPPPPPPGCCCCC,5th cousin 6x removed
+PPPPPPPPPPPGCCCCD,5th cousin 6x removed
+PPPPPPPPPPPGCCCCS,5th cousin 6x removed
+PPPPPPPPPPPPCCCCC,half 4th cousin 7x removed
+PPPPPPPPPPPPECCCC,step 3rd cousin 8x removed
+PPPPPPPPPPPPGCCCC,4th cousin 8x removed
+PPPPPPPPPPPPGCCCD,4th cousin 8x removed
+PPPPPPPPPPPPGCCCS,4th cousin 8x removed
+PPPPPPPPPPPPPCCCC,half 3rd cousin 9x removed
+PPPPPPPPPPPPPECCC,step 2nd cousin 10x removed
+PPPPPPPPPPPPPGCCC,3rd cousin 10x removed
+PPPPPPPPPPPPPGCCD,3rd cousin 10x removed
+PPPPPPPPPPPPPGCCS,3rd cousin 10x removed
+PPPPPPPPPPPPPPPED,step 13th great aunt
+PPPPPPPPPPPPPPPES,step 13th great uncle
+PPPPPPPPPPPPPPPPB,15th great uncle
+PPPPPPPPPPPPPPPPD,half 14th great aunt
+PPPPPPPPPPPPPPPPF,15th great grandfather
+PPPPPPPPPPPPPPPPM,15th great grandmother
+PPPPPPPPPPPPPPPPP,15th great grandparent
+PPPPPPPPPPPPPPPPS,half 14th great uncle
+PPPPPPPPPPPPPPPPZ,15th great aunt
+,
+CCCCCCCCCCCCCCCCCC,16th great grandchild
+CCCCCCCCCCCCCCCCCD,16th great granddaughter
+CCCCCCCCCCCCCCCCCS,16th great grandson
+GCCCCCCCCCCCCCCCCD,15th great grand niece
+GCCCCCCCCCCCCCCCCS,15th great grand nephew
+PPPPCCCCCCCCCCCCCC,half 3rd cousin 10x removed
+PPPPECCCCCCCCCCCCC,step 3rd cousin 9x removed
+PPPPGCCCCCCCCCCCCC,4th cousin 9x removed
+PPPPGCCCCCCCCCCCCD,4th cousin 9x removed
+PPPPGCCCCCCCCCCCCS,4th cousin 9x removed
+PPPPPCCCCCCCCCCCCC,half 4th cousin 8x removed
+PPPPPECCCCCCCCCCCC,step 4th cousin 7x removed
+PPPPPGCCCCCCCCCCCC,5th cousin 7x removed
+PPPPPGCCCCCCCCCCCD,5th cousin 7x removed
+PPPPPGCCCCCCCCCCCS,5th cousin 7x removed
+PPPPPPCCCCCCCCCCCC,half 5th cousin 6x removed
+PPPPPPECCCCCCCCCCC,step 5th cousin 5x removed
+PPPPPPGCCCCCCCCCCC,6th cousin 5x removed
+PPPPPPGCCCCCCCCCCD,6th cousin 5x removed
+PPPPPPGCCCCCCCCCCS,6th cousin 5x removed
+PPPPPPPCCCCCCCCCCC,half 6th cousin 4x removed
+PPPPPPPECCCCCCCCCC,step 6th cousin 3x removed
+PPPPPPPGCCCCCCCCCC,7th cousin 3x removed
+PPPPPPPGCCCCCCCCCD,7th cousin 3x removed
+PPPPPPPGCCCCCCCCCS,7th cousin 3x removed
+PPPPPPPPCCCCCCCCCC,half 7th cousin 2x removed
+PPPPPPPPECCCCCCCCC,step 7th cousin 1x removed
+PPPPPPPPGCCCCCCCCC,8th cousin 1x removed
+PPPPPPPPGCCCCCCCCD,8th cousin 1x removed
+PPPPPPPPGCCCCCCCCS,8th cousin 1x removed
+PPPPPPPPPCCCCCCCCC,half 8th cousin
+PPPPPPPPPECCCCCCCC,step 7th cousin 1x removed
+PPPPPPPPPGCCCCCCCC,8th cousin 1x removed
+PPPPPPPPPGCCCCCCCD,8th cousin 1x removed
+PPPPPPPPPGCCCCCCCS,8th cousin 1x removed
+PPPPPPPPPPCCCCCCCC,half 7th cousin 2x removed
+PPPPPPPPPPECCCCCCC,step 6th cousin 3x removed
+PPPPPPPPPPGCCCCCCC,7th cousin 3x removed
+PPPPPPPPPPGCCCCCCD,7th cousin 3x removed
+PPPPPPPPPPGCCCCCCS,7th cousin 3x removed
+PPPPPPPPPPPCCCCCCC,half 6th cousin 4x removed
+PPPPPPPPPPPECCCCCC,step 5th cousin 5x removed
+PPPPPPPPPPPGCCCCCC,6th cousin 5x removed
+PPPPPPPPPPPGCCCCCD,6th cousin 5x removed
+PPPPPPPPPPPGCCCCCS,6th cousin 5x removed
+PPPPPPPPPPPPCCCCCC,half 5th cousin 6x removed
+PPPPPPPPPPPPECCCCC,step 4th cousin 7x removed
+PPPPPPPPPPPPGCCCCC,5th cousin 7x removed
+PPPPPPPPPPPPGCCCCD,5th cousin 7x removed
+PPPPPPPPPPPPGCCCCS,5th cousin 7x removed
+PPPPPPPPPPPPPCCCCC,half 4th cousin 8x removed
+PPPPPPPPPPPPPECCCC,step 3rd cousin 9x removed
+PPPPPPPPPPPPPGCCCC,4th cousin 9x removed
+PPPPPPPPPPPPPGCCCD,4th cousin 9x removed
+PPPPPPPPPPPPPGCCCS,4th cousin 9x removed
+PPPPPPPPPPPPPPCCCC,half 3rd cousin 10x removed
+PPPPPPPPPPPPPPPPED,step 14th great aunt
+PPPPPPPPPPPPPPPPES,step 14th great uncle
+PPPPPPPPPPPPPPPPPB,16th great uncle
+PPPPPPPPPPPPPPPPPD,half 15th great aunt
+PPPPPPPPPPPPPPPPPF,16th great grandfather
+PPPPPPPPPPPPPPPPPM,16th great grandmother
+PPPPPPPPPPPPPPPPPP,16th great grandparent
+PPPPPPPPPPPPPPPPPS,half 15th great uncle
+PPPPPPPPPPPPPPPPPZ,16th great aunt
+,
+CCCCCCCCCCCCCCCCCCC,17th great grandchild
+CCCCCCCCCCCCCCCCCCD,17th great granddaughter
+CCCCCCCCCCCCCCCCCCS,17th great grandson
+GCCCCCCCCCCCCCCCCCD,16th great grand niece
+GCCCCCCCCCCCCCCCCCS,16th great grand nephew
+PPPPECCCCCCCCCCCCCC,step 3rd cousin 10x removed
+PPPPGCCCCCCCCCCCCCC,4th cousin 10x removed
+PPPPGCCCCCCCCCCCCCD,4th cousin 10x removed
+PPPPGCCCCCCCCCCCCCS,4th cousin 10x removed
+PPPPPCCCCCCCCCCCCCC,half 4th cousin 9x removed
+PPPPPECCCCCCCCCCCCC,step 4th cousin 8x removed
+PPPPPGCCCCCCCCCCCCC,5th cousin 8x removed
+PPPPPGCCCCCCCCCCCCD,5th cousin 8x removed
+PPPPPGCCCCCCCCCCCCS,5th cousin 8x removed
+PPPPPPCCCCCCCCCCCCC,half 5th cousin 7x removed
+PPPPPPECCCCCCCCCCCC,step 5th cousin 6x removed
+PPPPPPGCCCCCCCCCCCC,6th cousin 6x removed
+PPPPPPGCCCCCCCCCCCD,6th cousin 6x removed
+PPPPPPGCCCCCCCCCCCS,6th cousin 6x removed
+PPPPPPPCCCCCCCCCCCC,half 6th cousin 5x removed
+PPPPPPPECCCCCCCCCCC,step 6th cousin 4x removed
+PPPPPPPGCCCCCCCCCCC,7th cousin 4x removed
+PPPPPPPGCCCCCCCCCCD,7th cousin 4x removed
+PPPPPPPGCCCCCCCCCCS,7th cousin 4x removed
+PPPPPPPPCCCCCCCCCCC,half 7th cousin 3x removed
+PPPPPPPPECCCCCCCCCC,step 7th cousin 2x removed
+PPPPPPPPGCCCCCCCCCC,8th cousin 2x removed
+PPPPPPPPGCCCCCCCCCD,8th cousin 2x removed
+PPPPPPPPGCCCCCCCCCS,8th cousin 2x removed
+PPPPPPPPPCCCCCCCCCC,half 8th cousin 1x removed
+PPPPPPPPPECCCCCCCCC,step 8th cousin
+PPPPPPPPPGCCCCCCCCC,9th cousin
+PPPPPPPPPGCCCCCCCCD,9th cousin
+PPPPPPPPPGCCCCCCCCS,9th cousin
+PPPPPPPPPPCCCCCCCCC,half 8th cousin 1x removed
+PPPPPPPPPPECCCCCCCC,step 7th cousin 2x removed
+PPPPPPPPPPGCCCCCCCC,8th cousin 2x removed
+PPPPPPPPPPGCCCCCCCD,8th cousin 2x removed
+PPPPPPPPPPGCCCCCCCS,8th cousin 2x removed
+PPPPPPPPPPPCCCCCCCC,half 7th cousin 3x removed
+PPPPPPPPPPPECCCCCCC,step 6th cousin 4x removed
+PPPPPPPPPPPGCCCCCCC,7th cousin 4x removed
+PPPPPPPPPPPGCCCCCCD,7th cousin 4x removed
+PPPPPPPPPPPGCCCCCCS,7th cousin 4x removed
+PPPPPPPPPPPPCCCCCCC,half 6th cousin 5x removed
+PPPPPPPPPPPPECCCCCC,step 5th cousin 6x removed
+PPPPPPPPPPPPGCCCCCC,6th cousin 6x removed
+PPPPPPPPPPPPGCCCCCD,6th cousin 6x removed
+PPPPPPPPPPPPGCCCCCS,6th cousin 6x removed
+PPPPPPPPPPPPPCCCCCC,half 5th cousin 7x removed
+PPPPPPPPPPPPPECCCCC,step 4th cousin 8x removed
+PPPPPPPPPPPPPGCCCCC,5th cousin 8x removed
+PPPPPPPPPPPPPGCCCCD,5th cousin 8x removed
+PPPPPPPPPPPPPGCCCCS,5th cousin 8x removed
+PPPPPPPPPPPPPPCCCCC,half 4th cousin 9x removed
+PPPPPPPPPPPPPPECCCC,step 3rd cousin 10x removed
+PPPPPPPPPPPPPPGCCCC,4th cousin 10x removed
+PPPPPPPPPPPPPPGCCCD,4th cousin 10x removed
+PPPPPPPPPPPPPPGCCCS,4th cousin 10x removed
+PPPPPPPPPPPPPPPPPED,step 15th great aunt
+PPPPPPPPPPPPPPPPPES,step 15th great uncle
+PPPPPPPPPPPPPPPPPPB,17th great uncle
+PPPPPPPPPPPPPPPPPPD,half 16th great aunt
+PPPPPPPPPPPPPPPPPPF,17th great grandfather
+PPPPPPPPPPPPPPPPPPM,17th great grandmother
+PPPPPPPPPPPPPPPPPPP,17th great grandparent
+PPPPPPPPPPPPPPPPPPS,half 16th great uncle
+PPPPPPPPPPPPPPPPPPZ,17th great aunt
+,
+CCCCCCCCCCCCCCCCCCCC,18th great grandchild
+CCCCCCCCCCCCCCCCCCCD,18th great granddaughter
+CCCCCCCCCCCCCCCCCCCS,18th great grandson
+GCCCCCCCCCCCCCCCCCCD,17th great grand niece
+GCCCCCCCCCCCCCCCCCCS,17th great grand nephew
+PPPPPCCCCCCCCCCCCCCC,half 4th cousin 10x removed
+PPPPPECCCCCCCCCCCCCC,step 4th cousin 9x removed
+PPPPPGCCCCCCCCCCCCCC,5th cousin 9x removed
+PPPPPGCCCCCCCCCCCCCD,5th cousin 9x removed
+PPPPPGCCCCCCCCCCCCCS,5th cousin 9x removed
+PPPPPPCCCCCCCCCCCCCC,half 5th cousin 8x removed
+PPPPPPECCCCCCCCCCCCC,step 5th cousin 7x removed
+PPPPPPGCCCCCCCCCCCCC,6th cousin 7x removed
+PPPPPPGCCCCCCCCCCCCD,6th cousin 7x removed
+PPPPPPGCCCCCCCCCCCCS,6th cousin 7x removed
+PPPPPPPCCCCCCCCCCCCC,half 6th cousin 6x removed
+PPPPPPPECCCCCCCCCCCC,step 6th cousin 5x removed
+PPPPPPPGCCCCCCCCCCCC,7th cousin 5x removed
+PPPPPPPGCCCCCCCCCCCD,7th cousin 5x removed
+PPPPPPPGCCCCCCCCCCCS,7th cousin 5x removed
+PPPPPPPPCCCCCCCCCCCC,half 7th cousin 4x removed
+PPPPPPPPECCCCCCCCCCC,step 7th cousin 3x removed
+PPPPPPPPGCCCCCCCCCCC,8th cousin 3x removed
+PPPPPPPPGCCCCCCCCCCD,8th cousin 3x removed
+PPPPPPPPGCCCCCCCCCCS,8th cousin 3x removed
+PPPPPPPPPCCCCCCCCCCC,half 8th cousin 2x removed
+PPPPPPPPPECCCCCCCCCC,step 8th cousin 1x removed
+PPPPPPPPPGCCCCCCCCCC,9th cousin 1x removed
+PPPPPPPPPGCCCCCCCCCD,9th cousin 1x removed
+PPPPPPPPPGCCCCCCCCCS,9th cousin 1x removed
+PPPPPPPPPPCCCCCCCCCC,half 9th cousin
+PPPPPPPPPPECCCCCCCCC,step 8th cousin 1x removed
+PPPPPPPPPPGCCCCCCCCC,9th cousin 1x removed
+PPPPPPPPPPGCCCCCCCCD,9th cousin 1x removed
+PPPPPPPPPPGCCCCCCCCS,9th cousin 1x removed
+PPPPPPPPPPPCCCCCCCCC,half 8th cousin 2x removed
+PPPPPPPPPPPECCCCCCCC,step 7th cousin 3x removed
+PPPPPPPPPPPGCCCCCCCC,8th cousin 3x removed
+PPPPPPPPPPPGCCCCCCCD,8th cousin 3x removed
+PPPPPPPPPPPGCCCCCCCS,8th cousin 3x removed
+PPPPPPPPPPPPCCCCCCCC,half 7th cousin 4x removed
+PPPPPPPPPPPPECCCCCCC,step 6th cousin 5x removed
+PPPPPPPPPPPPGCCCCCCC,7th cousin 5x removed
+PPPPPPPPPPPPGCCCCCCD,7th cousin 5x removed
+PPPPPPPPPPPPGCCCCCCS,7th cousin 5x removed
+PPPPPPPPPPPPPCCCCCCC,half 6th cousin 6x removed
+PPPPPPPPPPPPPECCCCCC,step 5th cousin 7x removed
+PPPPPPPPPPPPPGCCCCCC,6th cousin 7x removed
+PPPPPPPPPPPPPGCCCCCD,6th cousin 7x removed
+PPPPPPPPPPPPPGCCCCCS,6th cousin 7x removed
+PPPPPPPPPPPPPPCCCCCC,half 5th cousin 8x removed
+PPPPPPPPPPPPPPECCCCC,step 4th cousin 9x removed
+PPPPPPPPPPPPPPGCCCCC,5th cousin 9x removed
+PPPPPPPPPPPPPPGCCCCD,5th cousin 9x removed
+PPPPPPPPPPPPPPGCCCCS,5th cousin 9x removed
+PPPPPPPPPPPPPPPCCCCC,half 4th cousin 10x removed
+PPPPPPPPPPPPPPPPPPED,step 16th great aunt
+PPPPPPPPPPPPPPPPPPES,step 16th great uncle
+PPPPPPPPPPPPPPPPPPPB,18th great uncle
+PPPPPPPPPPPPPPPPPPPD,half 17th great aunt
+PPPPPPPPPPPPPPPPPPPF,18th great grandfather
+PPPPPPPPPPPPPPPPPPPM,18th great grandmother
+PPPPPPPPPPPPPPPPPPPP,18th great grandparent
+PPPPPPPPPPPPPPPPPPPS,half 17th great uncle
+PPPPPPPPPPPPPPPPPPPZ,18th great aunt
+,
+CCCCCCCCCCCCCCCCCCCCC,19th great grandchild
+CCCCCCCCCCCCCCCCCCCCD,19th great granddaughter
+CCCCCCCCCCCCCCCCCCCCS,19th great grandson
+GCCCCCCCCCCCCCCCCCCCD,18th great grand niece
+GCCCCCCCCCCCCCCCCCCCS,18th great grand nephew
+PPPPPECCCCCCCCCCCCCCC,step 4th cousin 10x removed
+PPPPPGCCCCCCCCCCCCCCC,5th cousin 10x removed
+PPPPPGCCCCCCCCCCCCCCD,5th cousin 10x removed
+PPPPPGCCCCCCCCCCCCCCS,5th cousin 10x removed
+PPPPPPCCCCCCCCCCCCCCC,half 5th cousin 9x removed
+PPPPPPECCCCCCCCCCCCCC,step 5th cousin 8x removed
+PPPPPPGCCCCCCCCCCCCCC,6th cousin 8x removed
+PPPPPPGCCCCCCCCCCCCCD,6th cousin 8x removed
+PPPPPPGCCCCCCCCCCCCCS,6th cousin 8x removed
+PPPPPPPCCCCCCCCCCCCCC,half 6th cousin 7x removed
+PPPPPPPECCCCCCCCCCCCC,step 6th cousin 6x removed
+PPPPPPPGCCCCCCCCCCCCC,7th cousin 6x removed
+PPPPPPPGCCCCCCCCCCCCD,7th cousin 6x removed
+PPPPPPPGCCCCCCCCCCCCS,7th cousin 6x removed
+PPPPPPPPCCCCCCCCCCCCC,half 7th cousin 5x removed
+PPPPPPPPECCCCCCCCCCCC,step 7th cousin 4x removed
+PPPPPPPPGCCCCCCCCCCCC,8th cousin 4x removed
+PPPPPPPPGCCCCCCCCCCCD,8th cousin 4x removed
+PPPPPPPPGCCCCCCCCCCCS,8th cousin 4x removed
+PPPPPPPPPCCCCCCCCCCCC,half 8th cousin 3x removed
+PPPPPPPPPECCCCCCCCCCC,step 8th cousin 2x removed
+PPPPPPPPPGCCCCCCCCCCC,9th cousin 2x removed
+PPPPPPPPPGCCCCCCCCCCD,9th cousin 2x removed
+PPPPPPPPPGCCCCCCCCCCS,9th cousin 2x removed
+PPPPPPPPPPCCCCCCCCCCC,half 9th cousin 1x removed
+PPPPPPPPPPECCCCCCCCCC,step 9th cousin
+PPPPPPPPPPGCCCCCCCCCC,10th cousin
+PPPPPPPPPPGCCCCCCCCCD,10th cousin
+PPPPPPPPPPGCCCCCCCCCS,10th cousin
+PPPPPPPPPPPCCCCCCCCCC,half 9th cousin 1x removed
+PPPPPPPPPPPECCCCCCCCC,step 8th cousin 2x removed
+PPPPPPPPPPPGCCCCCCCCC,9th cousin 2x removed
+PPPPPPPPPPPGCCCCCCCCD,9th cousin 2x removed
+PPPPPPPPPPPGCCCCCCCCS,9th cousin 2x removed
+PPPPPPPPPPPPCCCCCCCCC,half 8th cousin 3x removed
+PPPPPPPPPPPPECCCCCCCC,step 7th cousin 4x removed
+PPPPPPPPPPPPGCCCCCCCC,8th cousin 4x removed
+PPPPPPPPPPPPGCCCCCCCD,8th cousin 4x removed
+PPPPPPPPPPPPGCCCCCCCS,8th cousin 4x removed
+PPPPPPPPPPPPPCCCCCCCC,half 7th cousin 5x removed
+PPPPPPPPPPPPPECCCCCCC,step 6th cousin 6x removed
+PPPPPPPPPPPPPGCCCCCCC,7th cousin 6x removed
+PPPPPPPPPPPPPGCCCCCCD,7th cousin 6x removed
+PPPPPPPPPPPPPGCCCCCCS,7th cousin 6x removed
+PPPPPPPPPPPPPPCCCCCCC,half 6th cousin 7x removed
+PPPPPPPPPPPPPPECCCCCC,step 5th cousin 8x removed
+PPPPPPPPPPPPPPGCCCCCC,6th cousin 8x removed
+PPPPPPPPPPPPPPGCCCCCD,6th cousin 8x removed
+PPPPPPPPPPPPPPGCCCCCS,6th cousin 8x removed
+PPPPPPPPPPPPPPPCCCCCC,half 5th cousin 9x removed
+PPPPPPPPPPPPPPPECCCCC,step 4th cousin 10x removed
+PPPPPPPPPPPPPPPGCCCCC,5th cousin 10x removed
+PPPPPPPPPPPPPPPGCCCCD,5th cousin 10x removed
+PPPPPPPPPPPPPPPGCCCCS,5th cousin 10x removed
+PPPPPPPPPPPPPPPPPPPED,step 17th great aunt
+PPPPPPPPPPPPPPPPPPPES,step 17th great uncle
+PPPPPPPPPPPPPPPPPPPPB,19th great uncle
+PPPPPPPPPPPPPPPPPPPPD,half 18th great aunt
+PPPPPPPPPPPPPPPPPPPPF,19th great grandfather
+PPPPPPPPPPPPPPPPPPPPM,19th great grandmother
+PPPPPPPPPPPPPPPPPPPPP,19th great grandparent
+PPPPPPPPPPPPPPPPPPPPS,half 18th great uncle
+PPPPPPPPPPPPPPPPPPPPZ,19th great aunt
+,
+CCCCCCCCCCCCCCCCCCCCCC,20th great grandchild
+CCCCCCCCCCCCCCCCCCCCCD,20th great granddaughter
+CCCCCCCCCCCCCCCCCCCCCS,20th great grandson
+GCCCCCCCCCCCCCCCCCCCCD,19th great grand niece
+GCCCCCCCCCCCCCCCCCCCCS,19th great grand nephew
+PPPPPPCCCCCCCCCCCCCCCC,half 5th cousin 10x removed
+PPPPPPECCCCCCCCCCCCCCC,step 5th cousin 9x removed
+PPPPPPGCCCCCCCCCCCCCCC,6th cousin 9x removed
+PPPPPPGCCCCCCCCCCCCCCD,6th cousin 9x removed
+PPPPPPGCCCCCCCCCCCCCCS,6th cousin 9x removed
+PPPPPPPCCCCCCCCCCCCCCC,half 6th cousin 8x removed
+PPPPPPPECCCCCCCCCCCCCC,step 6th cousin 7x removed
+PPPPPPPGCCCCCCCCCCCCCC,7th cousin 7x removed
+PPPPPPPGCCCCCCCCCCCCCD,7th cousin 7x removed
+PPPPPPPGCCCCCCCCCCCCCS,7th cousin 7x removed
+PPPPPPPPCCCCCCCCCCCCCC,half 7th cousin 6x removed
+PPPPPPPPECCCCCCCCCCCCC,step 7th cousin 5x removed
+PPPPPPPPGCCCCCCCCCCCCC,8th cousin 5x removed
+PPPPPPPPGCCCCCCCCCCCCD,8th cousin 5x removed
+PPPPPPPPGCCCCCCCCCCCCS,8th cousin 5x removed
+PPPPPPPPPCCCCCCCCCCCCC,half 8th cousin 4x removed
+PPPPPPPPPECCCCCCCCCCCC,step 8th cousin 3x removed
+PPPPPPPPPGCCCCCCCCCCCC,9th cousin 3x removed
+PPPPPPPPPGCCCCCCCCCCCD,9th cousin 3x removed
+PPPPPPPPPGCCCCCCCCCCCS,9th cousin 3x removed
+PPPPPPPPPPCCCCCCCCCCCC,half 9th cousin 2x removed
+PPPPPPPPPPECCCCCCCCCCC,step 9th cousin 1x removed
+PPPPPPPPPPGCCCCCCCCCCC,10th cousin 1x removed
+PPPPPPPPPPGCCCCCCCCCCD,10th cousin 1x removed
+PPPPPPPPPPGCCCCCCCCCCS,10th cousin 1x removed
+PPPPPPPPPPPCCCCCCCCCCC,half 10th cousin
+PPPPPPPPPPPECCCCCCCCCC,step 9th cousin 1x removed
+PPPPPPPPPPPGCCCCCCCCCC,10th cousin 1x removed
+PPPPPPPPPPPGCCCCCCCCCD,10th cousin 1x removed
+PPPPPPPPPPPGCCCCCCCCCS,10th cousin 1x removed
+PPPPPPPPPPPPCCCCCCCCCC,half 9th cousin 2x removed
+PPPPPPPPPPPPECCCCCCCCC,step 8th cousin 3x removed
+PPPPPPPPPPPPGCCCCCCCCC,9th cousin 3x removed
+PPPPPPPPPPPPGCCCCCCCCD,9th cousin 3x removed
+PPPPPPPPPPPPGCCCCCCCCS,9th cousin 3x removed
+PPPPPPPPPPPPPCCCCCCCCC,half 8th cousin 4x removed
+PPPPPPPPPPPPPECCCCCCCC,step 7th cousin 5x removed
+PPPPPPPPPPPPPGCCCCCCCC,8th cousin 5x removed
+PPPPPPPPPPPPPGCCCCCCCD,8th cousin 5x removed
+PPPPPPPPPPPPPGCCCCCCCS,8th cousin 5x removed
+PPPPPPPPPPPPPPCCCCCCCC,half 7th cousin 6x removed
+PPPPPPPPPPPPPPECCCCCCC,step 6th cousin 7x removed
+PPPPPPPPPPPPPPGCCCCCCC,7th cousin 7x removed
+PPPPPPPPPPPPPPGCCCCCCD,7th cousin 7x removed
+PPPPPPPPPPPPPPGCCCCCCS,7th cousin 7x removed
+PPPPPPPPPPPPPPPCCCCCCC,half 6th cousin 8x removed
+PPPPPPPPPPPPPPPECCCCCC,step 5th cousin 9x removed
+PPPPPPPPPPPPPPPGCCCCCC,6th cousin 9x removed
+PPPPPPPPPPPPPPPGCCCCCD,6th cousin 9x removed
+PPPPPPPPPPPPPPPGCCCCCS,6th cousin 9x removed
+PPPPPPPPPPPPPPPPCCCCCC,half 5th cousin 10x removed
+PPPPPPPPPPPPPPPPPPPPED,step 18th great aunt
+PPPPPPPPPPPPPPPPPPPPES,step 18th great uncle
+PPPPPPPPPPPPPPPPPPPPPB,20th great uncle
+PPPPPPPPPPPPPPPPPPPPPD,half 19th great aunt
+PPPPPPPPPPPPPPPPPPPPPF,20th great grandfather
+PPPPPPPPPPPPPPPPPPPPPM,20th great grandmother
+PPPPPPPPPPPPPPPPPPPPPP,20th great grandparent
+PPPPPPPPPPPPPPPPPPPPPS,half 19th great uncle
+PPPPPPPPPPPPPPPPPPPPPZ,20th great aunt
+,
+GCCCCCCCCCCCCCCCCCCCCCD,20th great grand niece
+GCCCCCCCCCCCCCCCCCCCCCS,20th great grand nephew
+PEPPPPPPPPPPPPPPPPPPPPF,step 20th great grandfather
+PEPPPPPPPPPPPPPPPPPPPPM,step 20th great grandmother
+PEPPPPPPPPPPPPPPPPPPPPP,step 20th great grandparent
+PPPPPPECCCCCCCCCCCCCCCC,step 5th cousin 10x removed
+PPPPPPGCCCCCCCCCCCCCCCC,6th cousin 10x removed
+PPPPPPGCCCCCCCCCCCCCCCD,6th cousin 10x removed
+PPPPPPGCCCCCCCCCCCCCCCS,6th cousin 10x removed
+PPPPPPPCCCCCCCCCCCCCCCC,half 6th cousin 9x removed
+PPPPPPPECCCCCCCCCCCCCCC,step 6th cousin 8x removed
+PPPPPPPGCCCCCCCCCCCCCCC,7th cousin 8x removed
+PPPPPPPGCCCCCCCCCCCCCCD,7th cousin 8x removed
+PPPPPPPGCCCCCCCCCCCCCCS,7th cousin 8x removed
+PPPPPPPPCCCCCCCCCCCCCCC,half 7th cousin 7x removed
+PPPPPPPPECCCCCCCCCCCCCC,step 7th cousin 6x removed
+PPPPPPPPGCCCCCCCCCCCCCC,8th cousin 6x removed
+PPPPPPPPGCCCCCCCCCCCCCD,8th cousin 6x removed
+PPPPPPPPGCCCCCCCCCCCCCS,8th cousin 6x removed
+PPPPPPPPPCCCCCCCCCCCCCC,half 8th cousin 5x removed
+PPPPPPPPPECCCCCCCCCCCCC,step 8th cousin 4x removed
+PPPPPPPPPGCCCCCCCCCCCCC,9th cousin 4x removed
+PPPPPPPPPGCCCCCCCCCCCCD,9th cousin 4x removed
+PPPPPPPPPGCCCCCCCCCCCCS,9th cousin 4x removed
+PPPPPPPPPPCCCCCCCCCCCCC,half 9th cousin 3x removed
+PPPPPPPPPPECCCCCCCCCCCC,step 9th cousin 2x removed
+PPPPPPPPPPGCCCCCCCCCCCC,10th cousin 2x removed
+PPPPPPPPPPGCCCCCCCCCCCD,10th cousin 2x removed
+PPPPPPPPPPGCCCCCCCCCCCS,10th cousin 2x removed
+PPPPPPPPPPPCCCCCCCCCCCC,half 10th cousin 1x removed
+PPPPPPPPPPPECCCCCCCCCCC,step 10th cousin
+PPPPPPPPPPPPCCCCCCCCCCC,half 10th cousin 1x removed
+PPPPPPPPPPPPECCCCCCCCCC,step 9th cousin 2x removed
+PPPPPPPPPPPPGCCCCCCCCCC,10th cousin 2x removed
+PPPPPPPPPPPPGCCCCCCCCCD,10th cousin 2x removed
+PPPPPPPPPPPPGCCCCCCCCCS,10th cousin 2x removed
+PPPPPPPPPPPPPCCCCCCCCCC,half 9th cousin 3x removed
+PPPPPPPPPPPPPECCCCCCCCC,step 8th cousin 4x removed
+PPPPPPPPPPPPPGCCCCCCCCC,9th cousin 4x removed
+PPPPPPPPPPPPPGCCCCCCCCD,9th cousin 4x removed
+PPPPPPPPPPPPPGCCCCCCCCS,9th cousin 4x removed
+PPPPPPPPPPPPPPCCCCCCCCC,half 8th cousin 5x removed
+PPPPPPPPPPPPPPECCCCCCCC,step 7th cousin 6x removed
+PPPPPPPPPPPPPPGCCCCCCCC,8th cousin 6x removed
+PPPPPPPPPPPPPPGCCCCCCCD,8th cousin 6x removed
+PPPPPPPPPPPPPPGCCCCCCCS,8th cousin 6x removed
+PPPPPPPPPPPPPPPCCCCCCCC,half 7th cousin 7x removed
+PPPPPPPPPPPPPPPECCCCCCC,step 6th cousin 8x removed
+PPPPPPPPPPPPPPPGCCCCCCC,7th cousin 8x removed
+PPPPPPPPPPPPPPPGCCCCCCD,7th cousin 8x removed
+PPPPPPPPPPPPPPPGCCCCCCS,7th cousin 8x removed
+PPPPPPPPPPPPPPPPCCCCCCC,half 6th cousin 9x removed
+PPPPPPPPPPPPPPPPECCCCCC,step 5th cousin 10x removed
+PPPPPPPPPPPPPPPPGCCCCCC,6th cousin 10x removed
+PPPPPPPPPPPPPPPPGCCCCCD,6th cousin 10x removed
+PPPPPPPPPPPPPPPPGCCCCCS,6th cousin 10x removed
+PPPPPPPPPPPPPPPPPPPPPED,step 19th great aunt
+PPPPPPPPPPPPPPPPPPPPPES,step 19th great uncle
+PPPPPPPPPPPPPPPPPPPPPPD,half 20th great aunt
+PPPPPPPPPPPPPPPPPPPPPPS,half 20th great uncle
+,
+PCCCCCCCCCCCCCCCCCCCCCCD,half 20th great grand niece
+PCCCCCCCCCCCCCCCCCCCCCCS,half 20th great grand nephew
+PPPPPPPCCCCCCCCCCCCCCCCC,half 6th cousin 10x removed
+PPPPPPPECCCCCCCCCCCCCCCC,step 6th cousin 9x removed
+PPPPPPPGCCCCCCCCCCCCCCCC,7th cousin 9x removed
+PPPPPPPGCCCCCCCCCCCCCCCD,7th cousin 9x removed
+PPPPPPPGCCCCCCCCCCCCCCCS,7th cousin 9x removed
+PPPPPPPPCCCCCCCCCCCCCCCC,half 7th cousin 8x removed
+PPPPPPPPECCCCCCCCCCCCCCC,step 7th cousin 7x removed
+PPPPPPPPGCCCCCCCCCCCCCCC,8th cousin 7x removed
+PPPPPPPPGCCCCCCCCCCCCCCD,8th cousin 7x removed
+PPPPPPPPGCCCCCCCCCCCCCCS,8th cousin 7x removed
+PPPPPPPPPCCCCCCCCCCCCCCC,half 8th cousin 6x removed
+PPPPPPPPPECCCCCCCCCCCCCC,step 8th cousin 5x removed
+PPPPPPPPPGCCCCCCCCCCCCCC,9th cousin 5x removed
+PPPPPPPPPGCCCCCCCCCCCCCD,9th cousin 5x removed
+PPPPPPPPPGCCCCCCCCCCCCCS,9th cousin 5x removed
+PPPPPPPPPPCCCCCCCCCCCCCC,half 9th cousin 4x removed
+PPPPPPPPPPECCCCCCCCCCCCC,step 9th cousin 3x removed
+PPPPPPPPPPGCCCCCCCCCCCCC,10th cousin 3x removed
+PPPPPPPPPPGCCCCCCCCCCCCD,10th cousin 3x removed
+PPPPPPPPPPGCCCCCCCCCCCCS,10th cousin 3x removed
+PPPPPPPPPPPCCCCCCCCCCCCC,half 10th cousin 2x removed
+PPPPPPPPPPPECCCCCCCCCCCC,step 10th cousin 1x removed
+PPPPPPPPPPPPECCCCCCCCCCC,step 10th cousin 1x removed
+PPPPPPPPPPPPPCCCCCCCCCCC,half 10th cousin 2x removed
+PPPPPPPPPPPPPECCCCCCCCCC,step 9th cousin 3x removed
+PPPPPPPPPPPPPGCCCCCCCCCC,10th cousin 3x removed
+PPPPPPPPPPPPPGCCCCCCCCCD,10th cousin 3x removed
+PPPPPPPPPPPPPGCCCCCCCCCS,10th cousin 3x removed
+PPPPPPPPPPPPPPCCCCCCCCCC,half 9th cousin 4x removed
+PPPPPPPPPPPPPPECCCCCCCCC,step 8th cousin 5x removed
+PPPPPPPPPPPPPPGCCCCCCCCC,9th cousin 5x removed
+PPPPPPPPPPPPPPGCCCCCCCCD,9th cousin 5x removed
+PPPPPPPPPPPPPPGCCCCCCCCS,9th cousin 5x removed
+PPPPPPPPPPPPPPPCCCCCCCCC,half 8th cousin 6x removed
+PPPPPPPPPPPPPPPECCCCCCCC,step 7th cousin 7x removed
+PPPPPPPPPPPPPPPGCCCCCCCC,8th cousin 7x removed
+PPPPPPPPPPPPPPPGCCCCCCCD,8th cousin 7x removed
+PPPPPPPPPPPPPPPGCCCCCCCS,8th cousin 7x removed
+PPPPPPPPPPPPPPPPCCCCCCCC,half 7th cousin 8x removed
+PPPPPPPPPPPPPPPPECCCCCCC,step 6th cousin 9x removed
+PPPPPPPPPPPPPPPPGCCCCCCC,7th cousin 9x removed
+PPPPPPPPPPPPPPPPGCCCCCCD,7th cousin 9x removed
+PPPPPPPPPPPPPPPPGCCCCCCS,7th cousin 9x removed
+PPPPPPPPPPPPPPPPPCCCCCCC,half 6th cousin 10x removed
+PPPPPPPPPPPPPPPPPPPPPPED,step 20th great aunt
+PPPPPPPPPPPPPPPPPPPPPPES,step 20th great uncle
+,
+PECCCCCCCCCCCCCCCCCCCCCCD,step 20th great grand niece
+PECCCCCCCCCCCCCCCCCCCCCCS,step 20th great grand nephew
+PPPPPPPECCCCCCCCCCCCCCCCC,step 6th cousin 10x removed
+PPPPPPPGCCCCCCCCCCCCCCCCC,7th cousin 10x removed
+PPPPPPPGCCCCCCCCCCCCCCCCD,7th cousin 10x removed
+PPPPPPPGCCCCCCCCCCCCCCCCS,7th cousin 10x removed
+PPPPPPPPCCCCCCCCCCCCCCCCC,half 7th cousin 9x removed
+PPPPPPPPECCCCCCCCCCCCCCCC,step 7th cousin 8x removed
+PPPPPPPPGCCCCCCCCCCCCCCCC,8th cousin 8x removed
+PPPPPPPPGCCCCCCCCCCCCCCCD,8th cousin 8x removed
+PPPPPPPPGCCCCCCCCCCCCCCCS,8th cousin 8x removed
+PPPPPPPPPCCCCCCCCCCCCCCCC,half 8th cousin 7x removed
+PPPPPPPPPECCCCCCCCCCCCCCC,step 8th cousin 6x removed
+PPPPPPPPPGCCCCCCCCCCCCCCC,9th cousin 6x removed
+PPPPPPPPPGCCCCCCCCCCCCCCD,9th cousin 6x removed
+PPPPPPPPPGCCCCCCCCCCCCCCS,9th cousin 6x removed
+PPPPPPPPPPCCCCCCCCCCCCCCC,half 9th cousin 5x removed
+PPPPPPPPPPECCCCCCCCCCCCCC,step 9th cousin 4x removed
+PPPPPPPPPPGCCCCCCCCCCCCCC,10th cousin 4x removed
+PPPPPPPPPPGCCCCCCCCCCCCCD,10th cousin 4x removed
+PPPPPPPPPPGCCCCCCCCCCCCCS,10th cousin 4x removed
+PPPPPPPPPPPCCCCCCCCCCCCCC,half 10th cousin 3x removed
+PPPPPPPPPPPECCCCCCCCCCCCC,step 10th cousin 2x removed
+PPPPPPPPPPPPPECCCCCCCCCCC,step 10th cousin 2x removed
+PPPPPPPPPPPPPPCCCCCCCCCCC,half 10th cousin 3x removed
+PPPPPPPPPPPPPPECCCCCCCCCC,step 9th cousin 4x removed
+PPPPPPPPPPPPPPGCCCCCCCCCC,10th cousin 4x removed
+PPPPPPPPPPPPPPGCCCCCCCCCD,10th cousin 4x removed
+PPPPPPPPPPPPPPGCCCCCCCCCS,10th cousin 4x removed
+PPPPPPPPPPPPPPPCCCCCCCCCC,half 9th cousin 5x removed
+PPPPPPPPPPPPPPPECCCCCCCCC,step 8th cousin 6x removed
+PPPPPPPPPPPPPPPGCCCCCCCCC,9th cousin 6x removed
+PPPPPPPPPPPPPPPGCCCCCCCCD,9th cousin 6x removed
+PPPPPPPPPPPPPPPGCCCCCCCCS,9th cousin 6x removed
+PPPPPPPPPPPPPPPPCCCCCCCCC,half 8th cousin 7x removed
+PPPPPPPPPPPPPPPPECCCCCCCC,step 7th cousin 8x removed
+PPPPPPPPPPPPPPPPGCCCCCCCC,8th cousin 8x removed
+PPPPPPPPPPPPPPPPGCCCCCCCD,8th cousin 8x removed
+PPPPPPPPPPPPPPPPGCCCCCCCS,8th cousin 8x removed
+PPPPPPPPPPPPPPPPPCCCCCCCC,half 7th cousin 9x removed
+PPPPPPPPPPPPPPPPPECCCCCCC,step 6th cousin 10x removed
+PPPPPPPPPPPPPPPPPGCCCCCCC,7th cousin 10x removed
+PPPPPPPPPPPPPPPPPGCCCCCCD,7th cousin 10x removed
+PPPPPPPPPPPPPPPPPGCCCCCCS,7th cousin 10x removed
+,
+,
+PPPPPPPPCCCCCCCCCCCCCCCCCC,half 7th cousin 10x removed
+PPPPPPPPECCCCCCCCCCCCCCCCC,step 7th cousin 9x removed
+PPPPPPPPGCCCCCCCCCCCCCCCCC,8th cousin 9x removed
+PPPPPPPPGCCCCCCCCCCCCCCCCD,8th cousin 9x removed
+PPPPPPPPGCCCCCCCCCCCCCCCCS,8th cousin 9x removed
+PPPPPPPPPCCCCCCCCCCCCCCCCC,half 8th cousin 8x removed
+PPPPPPPPPECCCCCCCCCCCCCCCC,step 8th cousin 7x removed
+PPPPPPPPPGCCCCCCCCCCCCCCCC,9th cousin 7x removed
+PPPPPPPPPGCCCCCCCCCCCCCCCD,9th cousin 7x removed
+PPPPPPPPPGCCCCCCCCCCCCCCCS,9th cousin 7x removed
+PPPPPPPPPPCCCCCCCCCCCCCCCC,half 9th cousin 6x removed
+PPPPPPPPPPECCCCCCCCCCCCCCC,step 9th cousin 5x removed
+PPPPPPPPPPGCCCCCCCCCCCCCCC,10th cousin 5x removed
+PPPPPPPPPPGCCCCCCCCCCCCCCD,10th cousin 5x removed
+PPPPPPPPPPGCCCCCCCCCCCCCCS,10th cousin 5x removed
+PPPPPPPPPPPCCCCCCCCCCCCCCC,half 10th cousin 4x removed
+PPPPPPPPPPPECCCCCCCCCCCCCC,step 10th cousin 3x removed
+PPPPPPPPPPPPPPECCCCCCCCCCC,step 10th cousin 3x removed
+PPPPPPPPPPPPPPPCCCCCCCCCCC,half 10th cousin 4x removed
+PPPPPPPPPPPPPPPECCCCCCCCCC,step 9th cousin 5x removed
+PPPPPPPPPPPPPPPGCCCCCCCCCC,10th cousin 5x removed
+PPPPPPPPPPPPPPPGCCCCCCCCCD,10th cousin 5x removed
+PPPPPPPPPPPPPPPGCCCCCCCCCS,10th cousin 5x removed
+PPPPPPPPPPPPPPPPCCCCCCCCCC,half 9th cousin 6x removed
+PPPPPPPPPPPPPPPPECCCCCCCCC,step 8th cousin 7x removed
+PPPPPPPPPPPPPPPPGCCCCCCCCC,9th cousin 7x removed
+PPPPPPPPPPPPPPPPGCCCCCCCCD,9th cousin 7x removed
+PPPPPPPPPPPPPPPPGCCCCCCCCS,9th cousin 7x removed
+PPPPPPPPPPPPPPPPPCCCCCCCCC,half 8th cousin 8x removed
+PPPPPPPPPPPPPPPPPECCCCCCCC,step 7th cousin 9x removed
+PPPPPPPPPPPPPPPPPGCCCCCCCC,8th cousin 9x removed
+PPPPPPPPPPPPPPPPPGCCCCCCCD,8th cousin 9x removed
+PPPPPPPPPPPPPPPPPGCCCCCCCS,8th cousin 9x removed
+PPPPPPPPPPPPPPPPPPCCCCCCCC,half 7th cousin 10x removed
+,
+PPPPPPPPECCCCCCCCCCCCCCCCCC,step 7th cousin 10x removed
+PPPPPPPPGCCCCCCCCCCCCCCCCCC,8th cousin 10x removed
+PPPPPPPPGCCCCCCCCCCCCCCCCCD,8th cousin 10x removed
+PPPPPPPPGCCCCCCCCCCCCCCCCCS,8th cousin 10x removed
+PPPPPPPPPCCCCCCCCCCCCCCCCCC,half 8th cousin 9x removed
+PPPPPPPPPECCCCCCCCCCCCCCCCC,step 8th cousin 8x removed
+PPPPPPPPPGCCCCCCCCCCCCCCCCC,9th cousin 8x removed
+PPPPPPPPPGCCCCCCCCCCCCCCCCD,9th cousin 8x removed
+PPPPPPPPPGCCCCCCCCCCCCCCCCS,9th cousin 8x removed
+PPPPPPPPPPCCCCCCCCCCCCCCCCC,half 9th cousin 7x removed
+PPPPPPPPPPECCCCCCCCCCCCCCCC,step 9th cousin 6x removed
+PPPPPPPPPPGCCCCCCCCCCCCCCCC,10th cousin 6x removed
+PPPPPPPPPPGCCCCCCCCCCCCCCCD,10th cousin 6x removed
+PPPPPPPPPPGCCCCCCCCCCCCCCCS,10th cousin 6x removed
+PPPPPPPPPPPCCCCCCCCCCCCCCCC,half 10th cousin 5x removed
+PPPPPPPPPPPECCCCCCCCCCCCCCC,step 10th cousin 4x removed
+PPPPPPPPPPPPPPPECCCCCCCCCCC,step 10th cousin 4x removed
+PPPPPPPPPPPPPPPPCCCCCCCCCCC,half 10th cousin 5x removed
+PPPPPPPPPPPPPPPPECCCCCCCCCC,step 9th cousin 6x removed
+PPPPPPPPPPPPPPPPGCCCCCCCCCC,10th cousin 6x removed
+PPPPPPPPPPPPPPPPGCCCCCCCCCD,10th cousin 6x removed
+PPPPPPPPPPPPPPPPGCCCCCCCCCS,10th cousin 6x removed
+PPPPPPPPPPPPPPPPPCCCCCCCCCC,half 9th cousin 7x removed
+PPPPPPPPPPPPPPPPPECCCCCCCCC,step 8th cousin 8x removed
+PPPPPPPPPPPPPPPPPGCCCCCCCCC,9th cousin 8x removed
+PPPPPPPPPPPPPPPPPGCCCCCCCCD,9th cousin 8x removed
+PPPPPPPPPPPPPPPPPGCCCCCCCCS,9th cousin 8x removed
+PPPPPPPPPPPPPPPPPPCCCCCCCCC,half 8th cousin 9x removed
+PPPPPPPPPPPPPPPPPPECCCCCCCC,step 7th cousin 10x removed
+PPPPPPPPPPPPPPPPPPGCCCCCCCC,8th cousin 10x removed
+PPPPPPPPPPPPPPPPPPGCCCCCCCD,8th cousin 10x removed
+PPPPPPPPPPPPPPPPPPGCCCCCCCS,8th cousin 10x removed
+,
+PPPPPPPPPCCCCCCCCCCCCCCCCCCC,half 8th cousin 10x removed
+PPPPPPPPPECCCCCCCCCCCCCCCCCC,step 8th cousin 9x removed
+PPPPPPPPPGCCCCCCCCCCCCCCCCCC,9th cousin 9x removed
+PPPPPPPPPGCCCCCCCCCCCCCCCCCD,9th cousin 9x removed
+PPPPPPPPPGCCCCCCCCCCCCCCCCCS,9th cousin 9x removed
+PPPPPPPPPPCCCCCCCCCCCCCCCCCC,half 9th cousin 8x removed
+PPPPPPPPPPECCCCCCCCCCCCCCCCC,step 9th cousin 7x removed
+PPPPPPPPPPGCCCCCCCCCCCCCCCCC,10th cousin 7x removed
+PPPPPPPPPPGCCCCCCCCCCCCCCCCD,10th cousin 7x removed
+PPPPPPPPPPGCCCCCCCCCCCCCCCCS,10th cousin 7x removed
+PPPPPPPPPPPCCCCCCCCCCCCCCCCC,half 10th cousin 6x removed
+PPPPPPPPPPPECCCCCCCCCCCCCCCC,step 10th cousin 5x removed
+PPPPPPPPPPPPPPPPECCCCCCCCCCC,step 10th cousin 5x removed
+PPPPPPPPPPPPPPPPPCCCCCCCCCCC,half 10th cousin 6x removed
+PPPPPPPPPPPPPPPPPECCCCCCCCCC,step 9th cousin 7x removed
+PPPPPPPPPPPPPPPPPGCCCCCCCCCC,10th cousin 7x removed
+PPPPPPPPPPPPPPPPPGCCCCCCCCCD,10th cousin 7x removed
+PPPPPPPPPPPPPPPPPGCCCCCCCCCS,10th cousin 7x removed
+PPPPPPPPPPPPPPPPPPCCCCCCCCCC,half 9th cousin 8x removed
+PPPPPPPPPPPPPPPPPPECCCCCCCCC,step 8th cousin 9x removed
+PPPPPPPPPPPPPPPPPPGCCCCCCCCC,9th cousin 9x removed
+PPPPPPPPPPPPPPPPPPGCCCCCCCCD,9th cousin 9x removed
+PPPPPPPPPPPPPPPPPPGCCCCCCCCS,9th cousin 9x removed
+PPPPPPPPPPPPPPPPPPPCCCCCCCCC,half 8th cousin 10x removed
+,
+PPPPPPPPPECCCCCCCCCCCCCCCCCCC,step 8th cousin 10x removed
+PPPPPPPPPGCCCCCCCCCCCCCCCCCCC,9th cousin 10x removed
+PPPPPPPPPGCCCCCCCCCCCCCCCCCCD,9th cousin 10x removed
+PPPPPPPPPGCCCCCCCCCCCCCCCCCCS,9th cousin 10x removed
+PPPPPPPPPPCCCCCCCCCCCCCCCCCCC,half 9th cousin 9x removed
+PPPPPPPPPPECCCCCCCCCCCCCCCCCC,step 9th cousin 8x removed
+PPPPPPPPPPGCCCCCCCCCCCCCCCCCC,10th cousin 8x removed
+PPPPPPPPPPGCCCCCCCCCCCCCCCCCD,10th cousin 8x removed
+PPPPPPPPPPGCCCCCCCCCCCCCCCCCS,10th cousin 8x removed
+PPPPPPPPPPPCCCCCCCCCCCCCCCCCC,half 10th cousin 7x removed
+PPPPPPPPPPPECCCCCCCCCCCCCCCCC,step 10th cousin 6x removed
+PPPPPPPPPPPPPPPPPECCCCCCCCCCC,step 10th cousin 6x removed
+PPPPPPPPPPPPPPPPPPCCCCCCCCCCC,half 10th cousin 7x removed
+PPPPPPPPPPPPPPPPPPECCCCCCCCCC,step 9th cousin 8x removed
+PPPPPPPPPPPPPPPPPPGCCCCCCCCCC,10th cousin 8x removed
+PPPPPPPPPPPPPPPPPPGCCCCCCCCCD,10th cousin 8x removed
+PPPPPPPPPPPPPPPPPPGCCCCCCCCCS,10th cousin 8x removed
+PPPPPPPPPPPPPPPPPPPCCCCCCCCCC,half 9th cousin 9x removed
+PPPPPPPPPPPPPPPPPPPECCCCCCCCC,step 8th cousin 10x removed
+PPPPPPPPPPPPPPPPPPPGCCCCCCCCC,9th cousin 10x removed
+PPPPPPPPPPPPPPPPPPPGCCCCCCCCD,9th cousin 10x removed
+PPPPPPPPPPPPPPPPPPPGCCCCCCCCS,9th cousin 10x removed
+,
+PPPPPPPPPPCCCCCCCCCCCCCCCCCCCC,half 9th cousin 10x removed
+PPPPPPPPPPECCCCCCCCCCCCCCCCCCC,step 9th cousin 9x removed
+PPPPPPPPPPGCCCCCCCCCCCCCCCCCCC,10th cousin 9x removed
+PPPPPPPPPPGCCCCCCCCCCCCCCCCCCD,10th cousin 9x removed
+PPPPPPPPPPGCCCCCCCCCCCCCCCCCCS,10th cousin 9x removed
+PPPPPPPPPPPCCCCCCCCCCCCCCCCCCC,half 10th cousin 8x removed
+PPPPPPPPPPPECCCCCCCCCCCCCCCCCC,step 10th cousin 7x removed
+PPPPPPPPPPPPPPPPPPECCCCCCCCCCC,step 10th cousin 7x removed
+PPPPPPPPPPPPPPPPPPPCCCCCCCCCCC,half 10th cousin 8x removed
+PPPPPPPPPPPPPPPPPPPECCCCCCCCCC,step 9th cousin 9x removed
+PPPPPPPPPPPPPPPPPPPGCCCCCCCCCC,10th cousin 9x removed
+PPPPPPPPPPPPPPPPPPPGCCCCCCCCCD,10th cousin 9x removed
+PPPPPPPPPPPPPPPPPPPGCCCCCCCCCS,10th cousin 9x removed
+PPPPPPPPPPPPPPPPPPPPCCCCCCCCCC,half 9th cousin 10x removed
+,
+PPPPPPPPPPECCCCCCCCCCCCCCCCCCCC,step 9th cousin 10x removed
+PPPPPPPPPPGCCCCCCCCCCCCCCCCCCCC,10th cousin 10x removed
+PPPPPPPPPPGCCCCCCCCCCCCCCCCCCCD,10th cousin 10x removed
+PPPPPPPPPPGCCCCCCCCCCCCCCCCCCCS,10th cousin 10x removed
+PPPPPPPPPPPCCCCCCCCCCCCCCCCCCCC,half 10th cousin 9x removed
+PPPPPPPPPPPECCCCCCCCCCCCCCCCCCC,step 10th cousin 8x removed
+PPPPPPPPPPPPPPPPPPPECCCCCCCCCCC,step 10th cousin 8x removed
+PPPPPPPPPPPPPPPPPPPPCCCCCCCCCCC,half 10th cousin 9x removed
+PPPPPPPPPPPPPPPPPPPPECCCCCCCCCC,step 9th cousin 10x removed
+PPPPPPPPPPPPPPPPPPPPGCCCCCCCCCC,10th cousin 10x removed
+PPPPPPPPPPPPPPPPPPPPGCCCCCCCCCD,10th cousin 10x removed
+PPPPPPPPPPPPPPPPPPPPGCCCCCCCCCS,10th cousin 10x removed
+,
+PPPPPPPPPPPCCCCCCCCCCCCCCCCCCCCC,half 10th cousin 10x removed
+PPPPPPPPPPPECCCCCCCCCCCCCCCCCCCC,step 10th cousin 9x removed
+PPPPPPPPPPPPPPPPPPPPECCCCCCCCCCC,step 10th cousin 9x removed
+PPPPPPPPPPPPPPPPPPPPPCCCCCCCCCCC,half 10th cousin 10x removed
+,
+CCSSDSDSCCCCCCCCCCCCCCCCCCCCCCCCC,31st great grandchild
+PPPPPPPPPPPECCCCCCCCCCCCCCCCCCCCC,step 10th cousin 10x removed
+PPPPPPPPPPPPPPPPPPPPPECCCCCCCCCCC,step 10th cousin 10x removed
+CCSSDSDSCCCCCCCCCCCCCCCCCCCCCCCCCD,32nd great granddaughter
+ECCSSDSDSCCCCCCCCCCCCCCCCCCCCCCCCC,step 31st great grandchild
+PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMG,sibling of 31st great grandmother
+PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPB,32nd great uncle
+PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPG,sibling of 31st great grandparent
+,
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCS,33rd great grandson
+ECCSSDSDSCCCCCCCCCCCCCCCCCCCCCCCCCD,step 32nd great granddaughter
+PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPZ,33rd great aunt
+,
+ECCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCS,step 33rd great grandson
+,
+PPPPPPPPPMPPPPPPPFMMMPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP,53rd great grandparent
+PPPPPPPPPPPPPPPMFFMFFPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPM,54th great grandmother
+,
+HWE,spouse of wife of husband
+FMMFFFBBW,sister-in-law of 5th great uncle
+FMMFZHMFMFMFSWMF,maternal grandfather of wife of half 4th great uncle of husband of 3rd great aunt
+MFFMMFFFFFMFFBDDDSDSZSSSDD,3rd great grand niece of 6th cousin 7x removed
+MFMFMFSWMFMFMFZHMMMMF,3rd great grandfather of husband of 5th great aunt of wife of half 4th great uncle
+54321,

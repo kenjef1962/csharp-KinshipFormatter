@@ -1,0 +1,25 @@
+﻿<Window x:Class="ACKinshipFormatterTestApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ACKinshipFormatterTestApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40  " />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="100" />
+        </Grid.ColumnDefinitions>
+
+        <TextBox x:Name="kinshipTextBox" Grid.Column="0" Grid.Row="0" Margin="10,10,0,10" TextWrapping="Wrap" Text="MFFFMF" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
+        <Button x:Name="formatButton" Grid.Column="1" Grid.Row="0"  Content="Format" Margin="10,10,10,10" VerticalAlignment="Stretch" Click="button_Click" HorizontalAlignment="Right" Width="80"/>
+
+        <TextBox x:Name="kinshipFormatted" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" TextWrapping="Wrap" Text="" Margin="10,0,10,10" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" BorderThickness="1" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" IsReadOnly="True"/>
+
+    </Grid>
+</Window>

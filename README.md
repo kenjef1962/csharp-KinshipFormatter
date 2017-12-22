@@ -9,3 +9,5 @@ To determine the final formatting, format strings are broken down using a number
 - Rule based relationship matching
 - Gender insinsitivity matching
 - Raw term matching
+
+The code is fully unit tested and was writting in C# using Visual Studio Pro 2015
